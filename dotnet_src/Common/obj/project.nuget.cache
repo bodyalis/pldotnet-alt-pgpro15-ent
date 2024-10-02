@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "kN7wpXWHaJkoiW6MRJrMn7+0mIWRA/nKwGE3P8WjxpODl7GGhJeXh+s8H0LJk57v5bN4m0Uh7t+wz01bcc2/EQ==",
+  "success": true,
+  "projectFilePath": "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/Common/PlDotNET.Common.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

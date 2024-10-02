@@ -1,0 +1,31 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+DROP TABLE
+CREATE TABLE
+ERROR:  language "plfsharp" does not exist
+ERROR:  language "plfsharp" does not exist
+ERROR:  language "plfsharp" does not exist
+ERROR:  language "plfsharp" does not exist
+ERROR:  language "plfsharp" does not exist
+ERROR:  function trigger_test_function_modify_fsharp() does not exist
+ERROR:  function trigger_test_skip_fsharp() does not exist
+ERROR:  function trigger_test_tg_vals_fsharp() does not exist
+ERROR:  function trigger_test_update_type_fsharp() does not exist
+ERROR:  function trigger_test_exception_fsharp() does not exist
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+DELETE 1
+UPDATE 0
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1

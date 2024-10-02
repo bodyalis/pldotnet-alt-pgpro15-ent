@@ -1,0 +1,127 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function identitystrfsharp(unknown) does not exist
+LINE 2: SELECT 'f#-text', 'identityStrFSharp', identityStrFSharp('do...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function concatenatetextfsharp(unknown, unknown) does not exist
+LINE 2: SELECT 'f#-text', 'concatenateTextFSharp1', concatenateTextF...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatetextfsharp(text, unknown) does not exist
+LINE 2: SELECT 'f#-text-null', 'concatenateTextFSharp2', concatenate...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatetextfsharp(text, text) does not exist
+LINE 2: SELECT 'f#-text-null', 'concatenateTextFSharp3', concatenate...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function multiplytextfsharp(unknown, integer) does not exist
+LINE 2: SELECT 'f#-text', 'multiplyTextFSharp', multiplyTextFSharp('...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function addgoodbyefsharp(unknown) does not exist
+LINE 2: SELECT 'f#-bpchar', 'testingBpCharFSharp', addGoodbyeFSharp(...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function concatenatecharsfsharp(character, character, character) does not exist
+LINE 2: SELECT 'f#-bpchar', 'concatenateCharsFSharp1', concatenateCh...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatecharsfsharp(character, character, character) does not exist
+LINE 2: ...LECT 'f#-bpchar-null', 'concatenateCharsFSharp2', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function concatenatevarcharsfsharp(character varying, character varying, character) does not exist
+LINE 2: ...ELECT 'f#-varchar', 'concatenateVarCharsFSharp1', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatevarcharsfsharp(character varying, character varying, character) does not exist
+LINE 2: ... 'f#-varchar-null', 'concatenateVarCharsFSharp2', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function multiplyvarcharfsharp(character varying, integer) does not exist
+LINE 2: SELECT 'f#-varchar', 'multiplyVarCharFSharp', multiplyVarCha...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyxmlfsharp(xml) does not exist
+LINE 2: SELECT 'f#-xml', 'modifyXmlFSharp1', modifyXmlFSharp('<?xml ...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyxmlfsharp(xml) does not exist
+LINE 2: SELECT 'f#-xml', 'modifyXmlFSharp2', modifyXmlFSharp(''::XML...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyxmlfsharp(xml) does not exist
+LINE 2: SELECT 'f#-xml-null', 'modifyXmlFSharp2', modifyXmlFSharp(NU...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createxmlfsharp(text, text, text) does not exist
+LINE 2: SELECT 'f#-xml', 'createXmlFSharp', createXmlFSharp('hello w...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returntextarrayfsharp(text[]) does not exist
+LINE 2: ... 'f#-text-null-1array', 'returnTextArrayFSharp1', returnText...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returntextarrayfsharp(text[]) does not exist
+LINE 2: ...null-2array-arraynull', 'returnTextArrayFSharp2', returnText...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returntextarrayfsharp(text[]) does not exist
+LINE 2: ...null-3array-arraynull', 'returnTextArrayFSharp3', returnText...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returntextarrayfsharp(text[]) does not exist
+LINE 2: ...CT 'f#-text-arraynull', 'returnTextArrayFSharp4', returnText...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraytextindexfsharp(text[], unknown, integer[]) does not exist
+LINE 2: ...text-null-1array', 'updateArrayTextIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytextindexfsharp(text[], unknown, integer[]) does not exist
+LINE 2: ...text-null-3array', 'updateArrayTextIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatechararrayindexfsharp(character[], character, integer[]) does not exist
+LINE 2: ...char-null-1array', 'updateCharArrayIndexFSharp1', updateChar...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatechararrayindexfsharp(character[], character, integer[]) does not exist
+LINE 2: ...2array-arraynull', 'updateCharArrayIndexFSharp2', updateChar...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatechararrayindexfsharp(character[], character, integer[]) does not exist
+LINE 2: ...char-null-1array', 'updateCharArrayIndexFSharp3', updateChar...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatevarchararrayindexfsharp(character varying[], character varying, integer[]) does not exist
+LINE 2: ...r-null-1array', 'updateVarcharArrayIndexFSharp1', updateVarc...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatevarchararrayindexfsharp(character varying[], character varying, integer[]) does not exist
+LINE 2: ...ray-arraynull', 'updateVarcharArrayIndexFSharp2', updateVarc...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatexmlarrayindexfsharp(xml[], xml, integer[]) does not exist
+LINE 2: ...#-xml-null-1array', 'updateXMLArrayIndexFSharp1', updateXMLA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatexmlarrayindexfsharp(xml[], xml, integer[]) does not exist
+LINE 2: ...-2array-arraynull', 'updateXMLArrayIndexFSharp2', updateXMLA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

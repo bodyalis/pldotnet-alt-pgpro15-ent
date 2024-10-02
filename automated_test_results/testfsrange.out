@@ -1,0 +1,249 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function increaseint4rangefsharp(int4range, integer) does not exist
+LINE 2: ...ELECT 'f#-int4range', 'IncreaseInt4RangeFSharp1', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4rangefsharp(int4range, integer) does not exist
+LINE 2: ...ELECT 'f#-int4range', 'IncreaseInt4RangeFSharp2', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4rangefsharp(int4range, integer) does not exist
+LINE 2: ...ELECT 'f#-int4range', 'IncreaseInt4RangeFSharp3', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4rangefsharp(int4range, integer) does not exist
+LINE 2: ...ELECT 'f#-int4range', 'IncreaseInt4RangeFSharp4', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4rangefsharp(int4range, integer) does not exist
+LINE 2: ...ELECT 'f#-int4range', 'IncreaseInt4RangeFSharp5', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4rangefsharp(int4range, integer) does not exist
+LINE 2: ... 'f#-int4range-null', 'IncreaseInt4RangeFSharp6', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function increaseint8rangefsharp(int8range, integer) does not exist
+LINE 2: ...ELECT 'f#-int8range', 'IncreaseInt8RangeFSharp1', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8rangefsharp(int8range, integer) does not exist
+LINE 2: ...ELECT 'f#-int8range', 'IncreaseInt8RangeFSharp2', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8rangefsharp(int8range, integer) does not exist
+LINE 2: ...ELECT 'f#-int8range', 'IncreaseInt8RangeFSharp3', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8rangefsharp(int8range, integer) does not exist
+LINE 2: ...ELECT 'f#-int8range', 'IncreaseInt8RangeFSharp8', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8rangefsharp(int8range, integer) does not exist
+LINE 2: ...ELECT 'f#-int8range', 'IncreaseInt8RangeFSharp5', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8rangefsharp(int8range, integer) does not exist
+LINE 2: ... 'f#-int8range-null', 'IncreaseInt8RangeFSharp6', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function increasetimestamprangefsharp(tsrange, integer) does not exist
+LINE 2: ...CT 'f#-tsrange', 'IncreaseTimestampRangeFSharp1', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamprangefsharp(tsrange, integer) does not exist
+LINE 2: ...CT 'f#-tsrange', 'IncreaseTimestampRangeFSharp2', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamprangefsharp(tsrange, integer) does not exist
+LINE 2: ...CT 'f#-tsrange', 'IncreaseTimestampRangeFSharp3', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamprangefsharp(tsrange, integer) does not exist
+LINE 2: ...CT 'f#-tsrange', 'IncreaseTimestampRangeFSharp4', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamprangefsharp(tsrange, integer) does not exist
+LINE 2: ...#-tsrange-null', 'IncreaseTimestampRangeFSharp5', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function increasetimestamptzrangefsharp(tstzrange, integer) does not exist
+LINE 2: ...f#-tstzrange', 'IncreaseTimestampTzRangeFSharp1', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamptzrangefsharp(tstzrange, integer) does not exist
+LINE 2: ...f#-tstzrange', 'IncreaseTimestampTzRangeFSharp2', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamptzrangefsharp(tstzrange, integer) does not exist
+LINE 2: ...f#-tstzrange', 'IncreaseTimestampTzRangeFSharp3', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamptzrangefsharp(tstzrange, integer) does not exist
+LINE 2: ...f#-tstzrange', 'IncreaseTimestampTzRangeFSharp4', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamptzrangefsharp(tstzrange, integer) does not exist
+LINE 2: ...tzrange-null', 'IncreaseTimestampTzRangeFSharp5', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function increasedateonlyrangefsharp(daterange, integer) does not exist
+LINE 2: ...T 'f#-daterange', 'IncreaseDateonlyRangeFSharp1', IncreaseDa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasedateonlyrangefsharp(daterange, integer) does not exist
+LINE 2: ...T 'f#-daterange', 'IncreaseDateonlyRangeFSharp2', IncreaseDa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasedateonlyrangefsharp(daterange, integer) does not exist
+LINE 2: ...T 'f#-daterange', 'IncreaseDateonlyRangeFSharp3', IncreaseDa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasedateonlyrangefsharp(daterange, integer) does not exist
+LINE 2: ...T 'f#-daterange', 'IncreaseDateonlyRangeFSharp4', IncreaseDa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasedateonlyrangefsharp(daterange, integer) does not exist
+LINE 2: ...-daterange-null', 'IncreaseDateonlyRangeFSharp5', IncreaseDa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updateint4rangeindexfsharp(int4range[], int4range) does not exist
+LINE 2: ...ange-null-1array', 'updateInt4RangeIndexFSharp1', updateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint4rangeindexfsharp(int4range[], int4range) does not exist
+LINE 2: ...ange-null-2array', 'updateInt4RangeIndexFSharp2', updateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint4rangeindexfsharp(int4range[], int4range) does not exist
+LINE 2: ...ange-null-3array', 'updateInt4RangeIndexFSharp3', updateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint4rangeindexfsharp(int4range[], int4range) does not exist
+LINE 2: ...2array-arraynull', 'updateInt4RangeIndexFSharp4', updateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint4rangeindexfsharp(int4range[], int4range) does not exist
+LINE 2: ...3array-arraynull', 'updateInt4RangeIndexFSharp5', updateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createint4rangearrayfsharp() does not exist
+LINE 2: ...3array-arraynull', 'CreateInt4RangeArrayFSharp1', CreateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updateint8rangeindexfsharp(int8range[], int8range) does not exist
+LINE 2: ...ange-null-1array', 'updateInt8RangeIndexFSharp1', updateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint8rangeindexfsharp(int8range[], int8range) does not exist
+LINE 2: ...ange-null-2array', 'updateInt8RangeIndexFSharp2', updateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint8rangeindexfsharp(int8range[], int8range) does not exist
+LINE 2: ...ange-null-3array', 'updateInt8RangeIndexFSharp3', updateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint8rangeindexfsharp(int8range[], int8range) does not exist
+LINE 2: ...2array-arraynull', 'updateInt8RangeIndexFSharp4', updateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint8rangeindexfsharp(int8range[], int8range) does not exist
+LINE 2: ...3array-arraynull', 'updateInt8RangeIndexFSharp5', updateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createint8rangearrayfsharp() does not exist
+LINE 2: ...3array-arraynull', 'CreateInt8RangeArrayFSharp1', CreateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatetimestamprangeindexfsharp(tsrange[], tsrange) does not exist
+LINE 2: ...null-1array', 'updateTimestampRangeIndexFSharp1', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamprangeindexfsharp(tsrange[], tsrange) does not exist
+LINE 2: ...null-2array', 'updateTimestampRangeIndexFSharp2', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamprangeindexfsharp(tsrange[], tsrange) does not exist
+LINE 2: ...null-3array', 'updateTimestampRangeIndexFSharp3', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamprangeindexfsharp(tsrange[], tsrange) does not exist
+LINE 2: ...y-arraynull', 'updateTimestampRangeIndexFSharp4', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamprangeindexfsharp(tsrange[], tsrange) does not exist
+LINE 2: ...y-arraynull', 'updateTimestampRangeIndexFSharp5', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createtimestamprangearrayemptyfsharp() does not exist
+LINE 2: ...l', 'CreateTimestampRangeArrayEmptyFSharp1', CAST(CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createtimestamprangearrayfsharp() does not exist
+LINE 2: ...ange-3array', 'CreateTimestampRangeArrayFSharp1', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatetimestamptzrangeindexfsharp(tstzrange[], tstzrange) does not exist
+LINE 2: ...ll-1array', 'updateTimestampTzRangeIndexFSharp1', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamptzrangeindexfsharp(tstzrange[], tstzrange) does not exist
+LINE 2: ...ll-2array', 'updateTimestampTzRangeIndexFSharp2', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamptzrangeindexfsharp(tstzrange[], tstzrange) does not exist
+LINE 2: ...ll-3array', 'updateTimestampTzRangeIndexFSharp3', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamptzrangeindexfsharp(tstzrange[], tstzrange) does not exist
+LINE 2: ...arraynull', 'updateTimestampTzRangeIndexFSharp4', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamptzrangeindexfsharp(tstzrange[], tstzrange) does not exist
+LINE 2: ...arraynull', 'updateTimestampTzRangeIndexFSharp5', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createtimestamptzrangearrayfsharp() does not exist
+LINE 2: ...arraynull', 'CreateTimestampTzRangeArrayFSharp1', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatedateonlyrangeindexfsharp(daterange[], daterange) does not exist
+LINE 2: ...-null-1array', 'updateDateonlyRangeIndexFSharp1', updateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatedateonlyrangeindexfsharp(daterange[], daterange) does not exist
+LINE 2: ...-null-2array', 'updateDateonlyRangeIndexFSharp2', updateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatedateonlyrangeindexfsharp(daterange[], daterange) does not exist
+LINE 2: ...-null-3array', 'updateDateonlyRangeIndexFSharp3', updateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatedateonlyrangeindexfsharp(daterange[], daterange) does not exist
+LINE 2: ...ay-arraynull', 'updateDateonlyRangeIndexFSharp4', updateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatedateonlyrangeindexfsharp(daterange[], daterange) does not exist
+LINE 2: ...ay-arraynull', 'updateDateonlyRangeIndexFSharp5', updateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createdateonlyrangearrayfsharp() does not exist
+LINE 2: ...ay-arraynull', 'CreateDateonlyRangeArrayFSharp1', CreateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

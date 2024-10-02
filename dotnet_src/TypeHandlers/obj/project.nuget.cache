@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "rVTN+c7qV7UJTJD85gs1xlv+OXYcQH8obKwvaDhMEQrdKY5hU5DWgqB3pCVztagcIsRDpLZFHW/n2PEvObS5Pw==",
+  "success": true,
+  "projectFilePath": "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/TypeHandlers/PlDotNET.Handlers.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/fsharp.core/6.0.7/fsharp.core.6.0.7.nupkg.sha512",
+    "/root/.nuget/packages/stylecop.analyzers/1.1.118/stylecop.analyzers.1.1.118.nupkg.sha512"
+  ],
+  "logs": []
+}

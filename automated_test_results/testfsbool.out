@@ -1,0 +1,101 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnboolfsharp() does not exist
+LINE 2: SELECT 'f#-bool', 'returnBoolFSharp', returnBoolFSharp() is ...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function booleanandfsharp(boolean, boolean) does not exist
+LINE 2: SELECT 'f#-bool', 'BooleanAndFSharp1', BooleanAndFSharp(true...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function booleanandfsharp(boolean, boolean) does not exist
+LINE 2: SELECT 'f#-bool-null', 'BooleanAndFSharp2', BooleanAndFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function booleanorfsharp(boolean, boolean) does not exist
+LINE 2: SELECT 'f#-bool', 'BooleanOrFSharp1', BooleanOrFSharp(false,...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function booleanorfsharp(boolean, boolean) does not exist
+LINE 2: SELECT 'f#-bool-null', 'BooleanOrFSharp2', BooleanOrFSharp(t...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function booleanxorfsharp(boolean, boolean) does not exist
+LINE 2: SELECT 'f#-bool', 'BooleanXorFSharp1', BooleanXorFSharp(fals...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function booleanxorfsharp(boolean, boolean) does not exist
+LINE 2: SELECT 'f#-bool-null', 'BooleanXorFSharp2', BooleanXorFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnbooleanarrayfsharp(boolean[]) does not exist
+LINE 2: ...#-bool-null-1array', 'returnBooleanArrayFSharp1', returnBool...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnbooleanarrayfsharp(boolean[]) does not exist
+LINE 2: ...l-2array-arraynull', 'returnBooleanArrayFSharp2', returnBool...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnbooleanarrayfsharp(boolean[]) does not exist
+LINE 2: ...l-3array-arraynull', 'returnBooleanArrayFSharp3', returnBool...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function countboolfsharp(boolean[], boolean) does not exist
+LINE 2: SELECT 'f#-bool-null-1array', 'countBoolFSharp1', countBoolF...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countboolfsharp(boolean[], boolean) does not exist
+LINE 2: SELECT 'f#-bool-null-1array', 'countBoolFSharp2', countBoolF...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countboolfsharp(boolean[], boolean) does not exist
+LINE 2: SELECT 'f#-bool-null-2array', 'countBoolFSharp3', countBoolF...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countboolfsharp(boolean[], boolean) does not exist
+LINE 2: SELECT 'f#-bool-null-2array', 'countBoolFSharp4', countBoolF...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countboolfsharp(boolean[], boolean) does not exist
+LINE 2: SELECT 'f#-bool-null-3array', 'countBoolFSharp5', countBoolF...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countboolfsharp(boolean[], boolean) does not exist
+LINE 2: SELECT 'f#-bool-null-3array', 'countBoolFSharp6', countBoolF...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createbooleanmultidimensionalarrayfsharp() does not exist
+LINE 2: ...ull', 'CreateBooleanMultidimensionalArrayFSharp', CreateBool...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraybooleanindexfsharp(boolean[], boolean) does not exist
+LINE 2: ...#-bool-1array', 'updateArrayBooleanIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraybooleanindexfsharp(boolean[], boolean) does not exist
+LINE 2: ...#-bool-2array', 'updateArrayBooleanIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraybooleanindexfsharp(boolean[], boolean) does not exist
+LINE 2: ...#-bool-2array', 'updateArrayBooleanIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraybooleanindexfsharp(boolean[], boolean) does not exist
+LINE 2: ...l-null-1array', 'updateArrayBooleanIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraybooleanindexfsharp(boolean[], boolean) does not exist
+LINE 2: ...l-null-2array', 'updateArrayBooleanIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraybooleanindexfsharp(boolean[], boolean) does not exist
+LINE 2: ...l-null-2array', 'updateArrayBooleanIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

@@ -1,0 +1,130 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function sum2smallintfsharpdll(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int2-dll', 'sum2SmallIntFSharpDLL1', sum2SmallInt...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2smallintfsharpdll(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int2-dll', 'sum2SmallIntFSharpDLL2', sum2SmallInt...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function mult2intfsharpdll(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int4-dll', 'mult2IntFSharpDLL1', mult2IntFSharpDL...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mult2intfsharpdll(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int4-null-dll', 'mult2IntFSharpDLL2', mult2IntFSh...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mult2intfsharpdll(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int4-null-dll', 'mult2IntFSharpDLL3', mult2IntFSh...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mult2intfsharpdll(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int4-null-dll', 'mult2IntFSharpDLL4', mult2IntFSh...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyfloat4arrayfsharpdll(real[], real) does not exist
+LINE 2: ...1darray-null-dll', 'modifyFloat4ArrayFSharpDLL1', modifyFloa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyfloat4arrayfsharpdll(real[], real) does not exist
+LINE 2: ...2darray-null-dll', 'modifyFloat4ArrayFSharpDLL2', modifyFloa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyfloat4arrayfsharpdll(real[], real) does not exist
+LINE 2: ...2darray-null-dll', 'modifyFloat4ArrayFSharpDLL3', modifyFloa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyfloat4arrayfsharpdll(real[], real) does not exist
+LINE 2: ...3darray-null-dll', 'modifyFloat4ArrayFSharpDLL4', modifyFloa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyfloat8arrayfsharpdll(double precision[], double precision) does not exist
+LINE 2: ...1darray-null-dll', 'modifyFloat8ArrayFSharpDLL1', modifyFloa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyfloat8arrayfsharpdll(double precision[], double precision) does not exist
+LINE 2: ...2darray-null-dll', 'modifyFloat8ArrayFSharpDLL2', modifyFloa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyfloat8arrayfsharpdll(double precision[], double precision) does not exist
+LINE 2: ...2darray-null-dll', 'modifyFloat8ArrayFSharpDLL3', modifyFloa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyfloat8arrayfsharpdll(double precision[], double precision) does not exist
+LINE 2: ...2darray-null-dll', 'modifyFloat8ArrayFSharpDLL4', modifyFloa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createdatefsharpdll(integer, integer, integer) does not exist
+LINE 2: SELECT 'f#-date-dll', 'createDateFSharpDLL1', createDateFSha...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function createdatefsharpdll(integer, integer, integer) does not exist
+LINE 2: SELECT 'f#-date-dll', 'createDateFSharpDLL2', createDateFSha...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function createdatefsharpdll(integer, integer, unknown) does not exist
+LINE 2: ...ELECT 'f#-date-null-dll', 'createDateFSharpDLL3', createDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function addminutesfsharpdll(time without time zone, integer) does not exist
+LINE 2: SELECT 'f#-time-dll', 'addMinutesFSharpDLL1', addMinutesFSha...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutesfsharpdll(unknown, integer) does not exist
+LINE 2: SELECT 'f#-time-dll', 'addMinutesFSharpDLL2', addMinutesFSha...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutesfsharpdll(time without time zone, integer) does not exist
+LINE 2: ...ELECT 'f#-time-null-dll', 'addMinutesFSharpDLL3', addMinutes...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifytimestamparrayfsharpdll(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...rray-null-dll', 'modifyTimestampArrayFSharpDLL1', modifyTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifytimestamparrayfsharpdll(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...rray-null-dll', 'modifyTimestampArrayFSharpDLL2', modifyTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifytimestamparrayfsharpdll(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...rray-null-dll', 'modifyTimestampArrayFSharpDLL3', modifyTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function concatenatestringfsharpdll(text, text) does not exist
+LINE 2: ...ECT 'f#-text-dll', 'concatenateStringFSharpDLL1', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatestringfsharpdll(text, text) does not exist
+LINE 2: ...f#-text-null-dll', 'concatenateStringFSharpDLL2', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatestringfsharpdll(text, text) does not exist
+LINE 2: ...f#-text-null-dll', 'concatenateStringFSharpDLL3', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatestringfsharpdll(text, text) does not exist
+LINE 2: ...f#-text-null-dll', 'concatenateStringFSharpDLL4', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifystringarrayfsharpdll(character varying[], text) does not exist
+LINE 2: ...rchar-1array-dll', 'modifyStringArrayFSharpDLL1', modifyStri...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifystringarrayfsharpdll(character varying[], text) does not exist
+LINE 2: ...-2array-null-dll', 'modifyStringArrayFSharpDLL2', modifyStri...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifystringarrayfsharpdll(character varying[], text) does not exist
+LINE 2: ...-2array-null-dll', 'modifyStringArrayFSharpDLL3', modifyStri...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

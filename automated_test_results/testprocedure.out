@@ -1,0 +1,19 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  procedure printsumprocedure(integer, integer) does not exist
+LINE 1: CALL printSumProcedure(10, 25);
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  procedure printsumprocedure(integer, integer) does not exist
+LINE 1: CALL printSumProcedure(1450, 275);
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  procedure printsmallestvalueprocedure(numeric[]) does not exist
+LINE 1: CALL printSmallestValueProcedure(ARRAY[2.25698, 2.85956, 2.8...
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  procedure printsmallestvalueprocedure(numeric[]) does not exist
+LINE 1: CALL printSmallestValueProcedure(ARRAY[2.25698, -2.85956, 2....
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.

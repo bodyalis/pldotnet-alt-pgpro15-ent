@@ -1,0 +1,154 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnmacaddress(macaddr) does not exist
+LINE 2: SELECT 'c#-macaddr', 'returnMacAddress', returnMacAddress(MA...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function comparemacaddress(macaddr, macaddr) does not exist
+LINE 2: SELECT 'c#-macaddr', 'compareMacAddress1', compareMacAddress...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddress(macaddr, macaddr) does not exist
+LINE 2: SELECT 'c#-macaddr-null', 'compareMacAddress2', compareMacAd...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function addonemacaddress8(macaddr8) does not exist
+LINE 2: SELECT 'c#-macaddr8', 'addOneMacAddress8', addOneMacAddress8...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function comparemacaddress8(macaddr8, macaddr8) does not exist
+LINE 2: SELECT 'c#-macaddr8', 'compareMacAddress81', compareMacAddre...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddress8(macaddr8, macaddr8) does not exist
+LINE 2: SELECT 'c#-macaddr8-null', 'compareMacAddress82', compareMac...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifynetmask(inet, integer) does not exist
+LINE 2: SELECT 'c#-inet', 'modifyNetMask', modifyNetMask(INET '192.1...
+                                           ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifyip(inet, integer) does not exist
+LINE 2: SELECT 'c#-inet', 'modifyNetMask1', modifyIP(INET '2001:db8:...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyip(inet, integer) does not exist
+LINE 2: SELECT 'c#-inet-null', 'modifyNetMask2', modifyIP(NULL::INET...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifyip_cidr(cidr, integer, integer) does not exist
+LINE 2: SELECT 'c#-cidr', 'modifyIP_CIDR', modifyIP_CIDR(CIDR '192.1...
+                                           ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifynetmask_cidr(cidr, integer) does not exist
+LINE 2: SELECT 'c#-cidr', 'modifyNetmask_CIDR1', modifyNetmask_CIDR(...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifynetmask_cidr(cidr, integer) does not exist
+LINE 2: SELECT 'c#-cidr-null', 'modifyNetmask_CIDR2', modifyNetmask_...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnmacaddressarray(macaddr[]) does not exist
+LINE 2: ...null-2array-arraynull', 'returnMacAddressArray1', returnMacA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraymacaddressindex(macaddr[], macaddr, integer[]) does not exist
+LINE 2: ...#-macaddr-1array', 'updateArrayMacAddressIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddressindex(macaddr[], macaddr, integer[]) does not exist
+LINE 2: ...#-macaddr-2array', 'updateArrayMacAddressIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddressindex(macaddr[], macaddr, integer[]) does not exist
+LINE 2: ...2array-arraynull', 'updateArrayMacAddressIndex3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasemacaddress(macaddr[]) does not exist
+LINE 2: ...ELECT 'c#-macaddr-1array', 'IncreaseMacAddress1', IncreaseMa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createmacaddressmultidimensionalarray() does not exist
+LINE 2: ...3array', 'CreateMacAddressMultidimensionalArray', CreateMacA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraymacaddress8index(macaddr8[], macaddr8, integer[]) does not exist
+LINE 2: ...macaddr8-1array', 'updateArrayMacAddress8Index1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddress8index(macaddr8[], macaddr8, integer[]) does not exist
+LINE 2: ...macaddr8-2array', 'updateArrayMacAddress8Index2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddress8index(macaddr8[], macaddr8, integer[]) does not exist
+LINE 2: ...array-arraynull', 'updateArrayMacAddress8Index3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasemacaddress8(macaddr8[]) does not exist
+LINE 2: ...ECT 'c#-macaddr8-1array', 'IncreaseMacAddress81', IncreaseMa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createmacaddress8multidimensionalarray() does not exist
+LINE 2: ...array', 'CreateMacAddress8MultidimensionalArray', CreateMacA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraynetmaskindex(inet[], inet, integer[]) does not exist
+LINE 2: ...ECT 'c#-inet-1array', 'updateArrayNetMaskIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraynetmaskindex(inet[], inet, integer[]) does not exist
+LINE 2: ...ECT 'c#-inet-2array', 'updateArrayNetMaskIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraynetmaskindex(inet[], inet, integer[]) does not exist
+LINE 2: ...ll-2array-arraynull', 'updateArrayNetMaskIndex3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseinetaddress(inet[]) does not exist
+LINE 2: SELECT 'c#-inet-1array', 'IncreaseInetAddress1', IncreaseIne...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createinetmultidimensionalarray() does not exist
+LINE 2: ...-inet-3array', 'CreateInetMultidimensionalArray', CreateInet...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraycidrindex(cidr[], cidr, integer[]) does not exist
+LINE 2: SELECT 'c#-cidr-1array', 'updateArrayCIDRIndex1', updateArra...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraycidrindex(cidr[], cidr, integer[]) does not exist
+LINE 2: SELECT 'c#-cidr-2array', 'updateArrayCIDRIndex2', updateArra...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraycidrindex(cidr[], cidr, integer[]) does not exist
+LINE 2: ...-null-2array-arraynull', 'updateArrayCIDRIndex3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasecidraddress(cidr[]) does not exist
+LINE 2: SELECT 'c#-cidr-1array', 'IncreaseCIDRAddress1', IncreaseCID...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createcidrmultidimensionalarray() does not exist
+LINE 2: ...-cidr-3array', 'CreateCIDRMultidimensionalArray', CreateCIDR...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

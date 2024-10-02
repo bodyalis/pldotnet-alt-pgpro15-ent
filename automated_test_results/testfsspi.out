@@ -1,0 +1,71 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spiscalarfsharp() does not exist
+LINE 2: SELECT 'f#-int4-spi', 'SPIScalarFSharp', SPIScalarFSharp() =...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spimultiqueryfsharp() does not exist
+LINE 2: SELECT 'f#-int4-spi', 'SPIMultiQueryFsharp', SPIMultiQueryFs...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spisumintegersfsharp(integer, integer, integer) does not exist
+LINE 2: ...'f#-int-spi-multiquery', 'SPISumIntegersFSharp1', SPISumInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spisumintegersfsharp(integer, integer, integer) does not exist
+LINE 2: ...'f#-int-spi-multiquery', 'SPISumIntegersFSharp2', SPISumInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spitesttruncateandalterfsharp() does not exist
+LINE 2: ...T 'f#-bool-spi', 'SPITestTruncateAndAlterFSharp', SPITestTru...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spitestcreatefunctionfsharp(unknown) does not exist
+LINE 2: ...ECT 'f#-text-spi', 'SPITestCreateFunctionFSharp', SPITestCre...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spitestcreatedropindexfsharp() does not exist
+LINE 2: ...CT 'f#-text-spi', 'SPITestCreateDropIndexFSharp', SPITestCre...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spitestcreatedropviewfsharp() does not exist
+LINE 2: ...ECT 'f#-text-spi', 'SPITestCreateDropViewFSharp', SPITestCre...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spiusecsharpspifsharp(unknown) does not exist
+LINE 2: SELECT 'f#-text-spi', 'SPIUseCSharpSPIFSharp', SPIUseCSharpS...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spiusecsharpspifsharp(unknown) does not exist
+LINE 2: SELECT 'f#-text-spi', 'SPIUseCSharpSPIFSharp', SPIUseCSharpS...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  procedure spitransactiontestrollbackfirstfsharp() does not exist
+LINE 1: CALL SPITransactionTestRollbackFirstFSharp();
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  relation "transaction_test_fsharp" does not exist
+LINE 2: ...M(a) = 25 THEN TRUE ELSE FALSE END AS RESULT FROM TRANSACTIO...
+                                                             ^
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spibatchcompoundparametersfsharp(integer, integer) does not exist
+LINE 2: ...parameters', 'SPIBatchCompoundParametersFSharp1', SPIBatchCo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spibatchcompoundparametersfsharp(integer, integer) does not exist
+LINE 2: ...parameters', 'SPIBatchCompoundParametersFSharp2', SPIBatchCo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function spiintegerarraywithnullfsharp() does not exist
+LINE 2: ...-int-spi-array', 'SPIIntegerArrayWithNullFSharp', SPIInteger...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

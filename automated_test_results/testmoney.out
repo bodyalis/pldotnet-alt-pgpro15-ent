@@ -1,0 +1,52 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function computenewsalary(money, numeric) does not exist
+LINE 2: SELECT 'c#-money', 'computeNewSalary', computeNewSalary('325...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnmaxmoney() does not exist
+LINE 2: SELECT 'c#-money', 'returnMaxMoney', returnMaxMoney() = '922...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnminmoney() does not exist
+LINE 2: SELECT 'c#-money', 'returnMinMoney', returnMinMoney() = '-92...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnmoney(money, money, money) does not exist
+LINE 2: SELECT 'c#-money', 'returnMoney1', returnMoney('32500.0'::MO...
+                                           ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnmoney(money, money, money) does not exist
+LINE 2: SELECT 'c#-money-null', 'returnMoney2', returnMoney('13525.2...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnmoney(money, money, money) does not exist
+LINE 2: SELECT 'c#-money-null', 'returnMoney3', returnMoney(null::MO...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatemoneyarrayindex(money[], money, integer[]) does not exist
+LINE 2: ...'c#-money-null-1array', 'updateMoneyArrayIndex1', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatemoneyarrayindex(money[], money, integer[]) does not exist
+LINE 2: ...null-2array-arraynull', 'updateMoneyArrayIndex2', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatemoneyarrayindex(money[], money, integer[]) does not exist
+LINE 2: ...null-2array-arraynull', 'updateMoneyArrayIndex3', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasemoney(money[]) does not exist
+LINE 2: SELECT 'c#-money-null-1array', 'IncreaseMoney1', IncreaseMon...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createmoneymultidimensionalarray() does not exist
+LINE 2: ...-arraynull', 'CreateMoneyMultidimensionalArray1', CreateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

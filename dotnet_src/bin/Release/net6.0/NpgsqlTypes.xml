@@ -1,0 +1,1771 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>NpgsqlTypes</name>
+    </assembly>
+    <members>
+        <member name="T:NpgsqlTypes.NpgsqlDbType">
+            <summary>
+            Represents a PostgreSQL data type that can be written or read to the database.
+            Used in places such as NpgsqlParameter.NpgsqlDbType to unambiguously specify
+            how to encode or decode values.
+            </summary>
+            <remarks>
+            See https://www.postgresql.org/docs/current/static/datatype.html.
+            </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Bigint">
+            <summary>
+            Corresponds to the PostgreSQL 8-byte "bigint" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-numeric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Double">
+            <summary>
+            Corresponds to the PostgreSQL 8-byte floating-point "double" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-numeric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Integer">
+            <summary>
+            Corresponds to the PostgreSQL 4-byte "integer" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-numeric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Numeric">
+            <summary>
+            Corresponds to the PostgreSQL arbitrary-precision "numeric" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-numeric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Real">
+            <summary>
+            Corresponds to the PostgreSQL floating-point "real" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-numeric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Smallint">
+            <summary>
+            Corresponds to the PostgreSQL 2-byte "smallint" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-numeric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Money">
+            <summary>
+            Corresponds to the PostgreSQL "money" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-money.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Boolean">
+            <summary>
+            Corresponds to the PostgreSQL "boolean" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-boolean.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Box">
+            <summary>
+            Corresponds to the PostgreSQL geometric "box" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-geometric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Circle">
+            <summary>
+            Corresponds to the PostgreSQL geometric "circle" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-geometric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Line">
+            <summary>
+            Corresponds to the PostgreSQL geometric "line" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-geometric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.LSeg">
+            <summary>
+            Corresponds to the PostgreSQL geometric "lseg" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-geometric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Path">
+            <summary>
+            Corresponds to the PostgreSQL geometric "path" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-geometric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Point">
+            <summary>
+            Corresponds to the PostgreSQL geometric "point" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-geometric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Polygon">
+            <summary>
+            Corresponds to the PostgreSQL geometric "polygon" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-geometric.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Char">
+            <summary>
+            Corresponds to the PostgreSQL "char(n)" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-character.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Text">
+            <summary>
+            Corresponds to the PostgreSQL "text" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-character.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Varchar">
+            <summary>
+            Corresponds to the PostgreSQL "varchar" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-character.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Name">
+            <summary>
+            Corresponds to the PostgreSQL internal "name" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-character.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Citext">
+            <summary>
+            Corresponds to the PostgreSQL "citext" type for the citext module.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/citext.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.InternalChar">
+             <summary>
+             Corresponds to the PostgreSQL "char" type.
+             </summary>
+             <remarks>
+             This is an internal field and should normally not be used for regular applications.
+            
+             See https://www.postgresql.org/docs/current/static/datatype-text.html
+             </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Bytea">
+            <summary>
+            Corresponds to the PostgreSQL "bytea" type, holding a raw byte string.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-binary.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Date">
+            <summary>
+            Corresponds to the PostgreSQL "date" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Time">
+            <summary>
+            Corresponds to the PostgreSQL "time" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Timestamp">
+            <summary>
+            Corresponds to the PostgreSQL "timestamp" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TimestampTZ">
+            <summary>
+            Corresponds to the PostgreSQL "timestamp with time zone" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TimestampTz">
+            <summary>
+            Corresponds to the PostgreSQL "timestamp with time zone" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Interval">
+            <summary>
+            Corresponds to the PostgreSQL "interval" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TimeTZ">
+            <summary>
+            Corresponds to the PostgreSQL "time with time zone" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TimeTz">
+            <summary>
+            Corresponds to the PostgreSQL "time with time zone" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Abstime">
+            <summary>
+            Corresponds to the obsolete PostgreSQL "abstime" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-datetime.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Inet">
+            <summary>
+            Corresponds to the PostgreSQL "inet" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-net-types.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Cidr">
+            <summary>
+            Corresponds to the PostgreSQL "cidr" type, a field storing an IPv4 or IPv6 network.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-net-types.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.MacAddr">
+            <summary>
+            Corresponds to the PostgreSQL "macaddr" type, a field storing a 6-byte physical address.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-net-types.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.MacAddr8">
+            <summary>
+            Corresponds to the PostgreSQL "macaddr8" type, a field storing a 6-byte or 8-byte physical address.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-net-types.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Bit">
+            <summary>
+            Corresponds to the PostgreSQL "bit" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-bit.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Varbit">
+            <summary>
+            Corresponds to the PostgreSQL "varbit" type, a field storing a variable-length string of bits.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-boolean.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TsVector">
+            <summary>
+            Corresponds to the PostgreSQL "tsvector" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-textsearch.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TsQuery">
+            <summary>
+            Corresponds to the PostgreSQL "tsquery" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-textsearch.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Regconfig">
+            <summary>
+            Corresponds to the PostgreSQL "regconfig" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-textsearch.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Uuid">
+            <summary>
+            Corresponds to the PostgreSQL "uuid" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-uuid.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Xml">
+            <summary>
+            Corresponds to the PostgreSQL "xml" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-xml.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Json">
+            <summary>
+            Corresponds to the PostgreSQL "json" type, a field storing JSON in text format.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-json.html</remarks>
+            <seealso cref="F:NpgsqlTypes.NpgsqlDbType.Jsonb"/>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Jsonb">
+            <summary>
+            Corresponds to the PostgreSQL "jsonb" type, a field storing JSON in an optimized binary.
+            format.
+            </summary>
+            <remarks>
+            Supported since PostgreSQL 9.4.
+            See https://www.postgresql.org/docs/current/static/datatype-json.html
+            </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.JsonPath">
+            <summary>
+            Corresponds to the PostgreSQL "jsonpath" type, a field storing JSON path in text format.
+            format.
+            </summary>
+            <remarks>
+            Supported since PostgreSQL 12.
+            See https://www.postgresql.org/docs/current/datatype-json.html#DATATYPE-JSONPATH
+            </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Hstore">
+            <summary>
+            Corresponds to the PostgreSQL "hstore" type, a dictionary of string key-value pairs.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/hstore.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Refcursor">
+            <summary>
+            Corresponds to the PostgreSQL "refcursor" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Oidvector">
+            <summary>
+            Corresponds to the PostgreSQL internal "oidvector" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-oid.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Int2Vector">
+            <summary>
+            Corresponds to the PostgreSQL internal "int2vector" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Oid">
+            <summary>
+            Corresponds to the PostgreSQL "oid" type.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-oid.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Xid">
+            <summary>
+            Corresponds to the PostgreSQL "xid" type, an internal transaction identifier.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-oid.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Xid8">
+            <summary>
+            Corresponds to the PostgreSQL "xid8" type, an internal transaction identifier.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-oid.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Cid">
+            <summary>
+            Corresponds to the PostgreSQL "cid" type, an internal command identifier.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/datatype-oid.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Regtype">
+            <summary>
+            Corresponds to the PostgreSQL "regtype" type, a numeric (OID) ID of a type in the pg_type table.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Tid">
+            <summary>
+            Corresponds to the PostgreSQL "tid" type, a tuple id identifying the physical location of a row within its table.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.PgLsn">
+            <summary>
+            Corresponds to the PostgreSQL "pg_lsn" type, which can be used to store LSN (Log Sequence Number) data which
+            is a pointer to a location in the WAL.
+            </summary>
+            <remarks>
+            See: https://www.postgresql.org/docs/current/datatype-pg-lsn.html and
+            https://git.postgresql.org/gitweb/?p=postgresql.git;a=commit;h=7d03a83f4d0736ba869fa6f93973f7623a27038a
+            </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Unknown">
+            <summary>
+            A special value that can be used to send parameter values to the database without
+            specifying their type, allowing the database to cast them to another value based on context.
+            The value will be converted to a string and send as text.
+            </summary>
+            <remarks>
+            This value shouldn't ordinarily be used, and makes sense only when sending a data type
+            unsupported by Npgsql.
+            </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Geometry">
+            <summary>
+            The geometry type for PostgreSQL spatial extension PostGIS.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Geography">
+            <summary>
+            The geography (geodetic) type for PostgreSQL spatial extension PostGIS.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.LTree">
+            <summary>
+            The PostgreSQL ltree type, each value is a label path "a.label.tree.value", forming a tree in a set.
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/ltree.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.LQuery">
+            <summary>
+            The PostgreSQL lquery type for PostgreSQL extension ltree
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/ltree.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.LTxtQuery">
+            <summary>
+            The PostgreSQL ltxtquery type for PostgreSQL extension ltree
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/ltree.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.IntegerRange">
+            <summary>
+            Corresponds to the PostgreSQL "int4range" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.BigIntRange">
+            <summary>
+            Corresponds to the PostgreSQL "int8range" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.NumericRange">
+            <summary>
+            Corresponds to the PostgreSQL "numrange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TimestampRange">
+            <summary>
+            Corresponds to the PostgreSQL "tsrange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TimestampTzRange">
+            <summary>
+            Corresponds to the PostgreSQL "tstzrange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.DateRange">
+            <summary>
+            Corresponds to the PostgreSQL "daterange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.IntegerMultirange">
+            <summary>
+            Corresponds to the PostgreSQL "int4multirange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.BigIntMultirange">
+            <summary>
+            Corresponds to the PostgreSQL "int8multirange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.NumericMultirange">
+            <summary>
+            Corresponds to the PostgreSQL "nummultirange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TimestampMultirange">
+            <summary>
+            Corresponds to the PostgreSQL "tsmultirange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.TimestampTzMultirange">
+            <summary>
+            Corresponds to the PostgreSQL "tstzmultirange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.DateMultirange">
+            <summary>
+            Corresponds to the PostgreSQL "datemultirange" type.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Array">
+            <summary>
+            Corresponds to the PostgreSQL "array" type, a variable-length multidimensional array of
+            another type. This value must be combined with another value from <see cref="T:NpgsqlTypes.NpgsqlDbType"/>
+            via a bit OR (e.g. NpgsqlDbType.Array | NpgsqlDbType.Integer)
+            </summary>
+            <remarks>See https://www.postgresql.org/docs/current/static/arrays.html</remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Range">
+            <summary>
+            Corresponds to the PostgreSQL "range" type, continuous range of values of specific type.
+            This value must be combined with another value from <see cref="T:NpgsqlTypes.NpgsqlDbType"/>
+            via a bit OR (e.g. NpgsqlDbType.Range | NpgsqlDbType.Integer)
+            </summary>
+            <remarks>
+            Supported since PostgreSQL 9.2.
+            See https://www.postgresql.org/docs/current/static/rangetypes.html
+            </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlDbType.Multirange">
+            <summary>
+            Corresponds to the PostgreSQL "multirange" type, continuous range of values of specific type.
+            This value must be combined with another value from <see cref="T:NpgsqlTypes.NpgsqlDbType"/>
+            via a bit OR (e.g. NpgsqlDbType.Multirange | NpgsqlDbType.Integer)
+            </summary>
+            <remarks>
+            Supported since PostgreSQL 14.
+            See https://www.postgresql.org/docs/current/static/rangetypes.html
+            </remarks>
+        </member>
+        <member name="T:NpgsqlTypes.BuiltInPostgresType">
+            <summary>
+            Represents a built-in PostgreSQL type as it appears in pg_type, including its name and OID.
+            Extension types with variable OIDs are not represented.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.BuiltInPostgresType.Name">
+            <summary>
+            Name Attribute
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.BuiltInPostgresType.BaseOID">
+            <summary>
+            BaseOID Attribute
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.BuiltInPostgresType.ArrayOID">
+            <summary>
+            ArrayOID Attribute
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.BuiltInPostgresType.RangeName">
+            <summary>
+            RangeName Attribute
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.BuiltInPostgresType.RangeOID">
+            <summary>
+            RangeOID Attribute
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.BuiltInPostgresType.MultirangeName">
+            <summary>
+            MultirangeName Attribute
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.BuiltInPostgresType.MultirangeOID">
+            <summary>
+            MultirangeOID Attribute
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.BuiltInPostgresType.#ctor(System.String,System.UInt32,System.UInt32)">
+            <summary>
+            Constructor with less attributes
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.BuiltInPostgresType.#ctor(System.String,System.UInt32,System.UInt32,System.String,System.UInt32,System.String,System.UInt32)">
+            <summary>
+            Constructor with more attributes
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlInterval">
+            <summary>
+            A raw representation of the PostgreSQL interval datatype. Use only when <see cref="T:System.TimeSpan" /> or NodaTime
+            <a href="https://nodatime.org/3.0.x/api/NodaTime.Period.html">Period</a> do not have sufficient range to handle your values.
+            </summary>
+            <remarks>
+            <p>
+            See https://www.postgresql.org/docs/current/static/datatype-geometric.html.
+            </p>
+            <p>
+            Do not use this type unless you have to: prefer <see cref="T:System.TimeSpan" /> or NodaTime
+            <a href="https://nodatime.org/3.0.x/api/NodaTime.Period.html">Period</a> when possible.
+            </p>
+            </remarks>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlInterval.#ctor(System.Int32,System.Int32,System.Int64)">
+            <summary>
+            Constructs an <see cref="T:NpgsqlTypes.NpgsqlInterval"/>.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlInterval.Months">
+            <summary>
+            Months and years, after time for alignment.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlInterval.Days">
+            <summary>
+            Days, after time for alignment.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlInterval.Time">
+            <summary>
+            Remaining time unit smaller than a day, in microseconds.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlInterval.Equals(NpgsqlTypes.NpgsqlInterval)">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlInterval.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlInterval.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlLogSequenceNumber">
+             <summary>
+             Wraps a PostgreSQL Write-Ahead Log Sequence Number (see: https://www.postgresql.org/docs/current/datatype-pg-lsn.html)
+             </summary>
+             <remarks>
+             Log Sequence Numbers are a fundamental concept of the PostgreSQL Write-Ahead Log and by that of
+             PostgreSQL replication. See https://www.postgresql.org/docs/current/wal-internals.html for what they represent.
+            
+             This struct provides conversions from/to <see cref="T:System.String"/> and <see cref="T:System.UInt64"/> and beyond that tries to port
+             the methods and operators in https://git.postgresql.org/gitweb/?p=postgresql.git;a=blob;f=src/backend/utils/adt/pg_lsn.c
+             but nothing more.
+             </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlLogSequenceNumber.Invalid">
+            <summary>
+            Zero is used indicate an invalid Log Sequence Number. No XLOG record can begin at zero.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.#ctor(System.UInt64)">
+            <summary>
+            Initializes a new instance of <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/>.
+            </summary>
+            <param name="value">The value to wrap.</param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.Equals(NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns a value indicating whether this instance is equal to a specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/>
+            instance.
+            </summary>
+            <param name="other">A <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance to compare to this instance.</param>
+            <returns><see langword="true" /> if the current instance is equal to the value parameter;
+            otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.CompareTo(NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Compares this instance to a specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> and returns an indication of their
+            relative values.
+            </summary>
+            <param name="value">A <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance to compare to this instance.</param>
+            <returns>A signed number indicating the relative values of this instance and <paramref name="value" />.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.Equals(System.Object)">
+            <summary>
+            Returns a value indicating whether this instance is equal to a specified object.
+            </summary>
+            <param name="obj">An object to compare to this instance</param>
+            <returns><see langword="true" /> if the current instance is equal to the value parameter;
+            otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.GetHashCode">
+            <summary>
+            Returns the hash code for this instance.
+            </summary>
+            <returns>A 32-bit signed integer hash code.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.ToString">
+            <summary>
+            Converts the numeric value of this instance to its equivalent string representation.
+            </summary>
+            <returns>The string representation of the value of this instance, consisting of two hexadecimal numbers of
+            up to 8 digits each, separated by a slash</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.Parse(System.String)">
+            <summary>
+            Converts the string representation of a Log Sequence Number to a <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            </summary>
+            <param name="s">A string that represents the Log Sequence Number to convert.</param>
+            <returns>
+            A <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> equivalent to the Log Sequence Number specified in <paramref name="s" />.
+            </returns>
+            <exception cref="T:System.ArgumentNullException">The <paramref name="s" /> parameter is <see langword="null"/>.</exception>
+            <exception cref="T:System.OverflowException">
+            The <paramref name="s" /> parameter represents a number less than <see cref="F:System.UInt64.MinValue"/> or greater than
+            <see cref="F:System.UInt64.MaxValue"/>.
+            </exception>
+            <exception cref="T:System.FormatException">The <paramref name="s" /> parameter is not in the right format.</exception>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.Parse(System.ReadOnlySpan{System.Char})">
+            <summary>
+            Converts the span representation of a Log Sequence Number to a <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            </summary>
+            <param name="s">A span containing the characters that represent the Log Sequence Number to convert.</param>
+            <returns>
+            A <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> equivalent to the Log Sequence Number specified in <paramref name="s" />.
+            </returns>
+            <exception cref="T:System.OverflowException">
+            The <paramref name="s" /> parameter represents a number less than <see cref="F:System.UInt64.MinValue"/> or greater than
+            <see cref="F:System.UInt64.MaxValue"/>.
+            </exception>
+            <exception cref="T:System.FormatException">The <paramref name="s" /> parameter is not in the right format.</exception>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.TryParse(System.String,NpgsqlTypes.NpgsqlLogSequenceNumber@)">
+            <summary>
+            Tries to convert the string representation of a Log Sequence Number to an <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/>
+            instance. A return value indicates whether the conversion succeeded or failed.
+            </summary>
+            <param name="s">A string that represents the Log Sequence Number to convert.</param>
+            <param name="result">
+            When this method returns, contains a <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance equivalent to the Log Sequence
+            Number contained in <paramref name="s"/>, if the conversion succeeded, or the default value for
+            <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> (<c>0</c>) if the conversion failed. The conversion fails if the <paramref name="s" />
+            parameter is <see langword="null"/> or <see cref="F:System.String.Empty"/>, is not in the right format, or represents a number
+            less than <see cref="F:System.UInt64.MinValue"/> or greater than <see cref="F:System.UInt64.MaxValue"/>. This parameter is
+            passed uninitialized; any value originally supplied in result will be overwritten.
+            </param>
+            <returns>
+            <see langword="true" /> if <paramref name="s"/>c> was converted successfully; otherwise, <see langword="false" />.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.TryParse(System.ReadOnlySpan{System.Char},NpgsqlTypes.NpgsqlLogSequenceNumber@)">
+            <summary>
+            Tries to convert the span representation of a Log Sequence Number to an <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/>
+            instance. A return value indicates whether the conversion succeeded or failed.
+            </summary>
+            <param name="s">A span containing the characters that represent the Log Sequence Number to convert.</param>
+            <param name="result">
+            When this method returns, contains a <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance equivalent to the Log Sequence
+            Number contained in <paramref name="s"/>, if the conversion succeeded, or the default value for
+            <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> (<c>0</c>) if the conversion failed. The conversion fails if the <paramref name="s" />
+            parameter is empty, is not in the right format, or represents a number less than
+            <see cref="F:System.UInt64.MinValue"/> or greater than <see cref="F:System.UInt64.MaxValue"/>. This parameter is passed
+            uninitialized; any value originally supplied in result will be overwritten.
+            </param>
+            <returns>
+            <see langword="true" /> if <paramref name="s"/> was converted successfully; otherwise, <see langword="false" />.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_Explicit(System.UInt64)~NpgsqlTypes.NpgsqlLogSequenceNumber">
+            <summary>
+            Converts the value of a 64-bit unsigned integer to a <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            </summary>
+            <param name="value">A 64-bit unsigned integer.</param>
+            <returns>A new instance of <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> initialized to <paramref name="value" />.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_Explicit(NpgsqlTypes.NpgsqlLogSequenceNumber)~System.UInt64">
+            <summary>
+            Converts the value of a <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance to a 64-bit unsigned integer value.
+            </summary>
+            <param name="value">A <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance</param>
+            <returns>The contents of <paramref name="value" /> as 64-bit unsigned integer.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_Equality(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns a value that indicates whether two specified instances of <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> are equal.
+            </summary>
+            <param name="value1">The first Log Sequence Number to compare.</param>
+            <param name="value2">The second Log Sequence Number to compare.</param>
+            <returns>
+            <see langword="true" /> if <paramref name="value1" /> equals <paramref name="value2" />; otherwise, <see langword="false" />.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_Inequality(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns a value that indicates whether two specified instances of <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> are not
+            equal.
+            </summary>
+            <param name="value1">The first Log Sequence Number to compare.</param>
+            <param name="value2">The second Log Sequence Number to compare.</param>
+            <returns>
+            <see langword="true" /> if <paramref name="value1" /> does not equal <paramref name="value2" />; otherwise,
+            <see langword="false" />.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_GreaterThan(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns a value indicating whether a specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance is greater than
+            another specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            </summary>
+            <param name="value1">The first value to compare.</param>
+            <param name="value2">The second value to compare.</param>
+            <returns>
+            <see langword="true" /> if <paramref name="value1" /> is greater than <paramref name="value2" />; otherwise,
+            <see langword="false" />.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_LessThan(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns a value indicating whether a specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance is less than
+            another specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            </summary>
+            <param name="value1">The first value to compare.</param>
+            <param name="value2">The second value to compare.</param>
+            <returns>
+            <see langword="true" /> if <paramref name="value1" /> is less than <paramref name="value2" />; otherwise,
+            <see langword="false" />.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_GreaterThanOrEqual(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns a value indicating whether a specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance is greater than or
+            equal to another specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            </summary>
+            <param name="value1">The first value to compare.</param>
+            <param name="value2">The second value to compare.</param>
+            <returns>
+            <see langword="true" /> if <paramref name="value1" /> is greater than or equal to <paramref name="value2" />;
+            otherwise, <see langword="false" />.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.Larger(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns the larger of two <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> values.
+            </summary>
+            <param name="value1">The first value to compare.</param>
+            <param name="value2">The second value to compare.</param>
+            <returns>
+            The larger of the two <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> values.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.Smaller(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns the smaller of two <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> values.
+            </summary>
+            <param name="value1">The first value to compare.</param>
+            <param name="value2">The second value to compare.</param>
+            <returns>
+            The smaller of the two <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> values.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_LessThanOrEqual(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Returns a value indicating whether a specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance is less than or
+            equal to another specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            </summary>
+            <param name="value1">The first value to compare.</param>
+            <param name="value2">The second value to compare.</param>
+            <returns>
+            <see langword="true" /> if <paramref name="value1" /> is less than or equal to <paramref name="value2" />;
+            otherwise, <see langword="false" />.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_Subtraction(NpgsqlTypes.NpgsqlLogSequenceNumber,NpgsqlTypes.NpgsqlLogSequenceNumber)">
+            <summary>
+            Subtracts two specified <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> values.
+            </summary>
+            <param name="first">The first <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> value.</param>
+            <param name="second">The second <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> value.</param>
+            <returns>The number of bytes separating those write-ahead log locations.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_Subtraction(NpgsqlTypes.NpgsqlLogSequenceNumber,System.Double)">
+            <summary>
+            Subtract the number of bytes from a <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance, giving a new
+            <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            Handles both positive and negative numbers of bytes.
+            </summary>
+            <param name="lsn">
+            The <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance representing a write-ahead log location.
+            </param>
+            <param name="nbytes">The number of bytes to subtract.</param>
+            <returns>A new <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.</returns>
+            <exception cref="T:System.OverflowException">
+            The resulting <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance would represent a number less than
+            <see cref="F:System.UInt64.MinValue"/>.
+            </exception>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlLogSequenceNumber.op_Addition(NpgsqlTypes.NpgsqlLogSequenceNumber,System.Double)">
+            <summary>
+            Add the number of bytes to a <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance, giving a new
+            <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.
+            Handles both positive and negative numbers of bytes.
+            </summary>
+            <param name="lsn">
+            The <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance representing a write-ahead log location.
+            </param>
+            <param name="nbytes">The number of bytes to add.</param>
+            <returns>A new <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance.</returns>
+            <exception cref="T:System.OverflowException">
+            The resulting <see cref="T:NpgsqlTypes.NpgsqlLogSequenceNumber"/> instance would represent a number greater than
+            <see cref="F:System.UInt64.MaxValue"/>.
+            </exception>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlRange`1">
+            <summary>
+            Represents a PostgreSQL range type.
+            </summary>
+            <typeparam name="T">The element type of the values in the range.</typeparam>
+            <remarks>
+            See: https://www.postgresql.org/docs/current/static/rangetypes.html
+            </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.EmptyLiteral">
+            <summary>
+            Defined by PostgreSQL to represent an empty range.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.LowerInfinityLiteral">
+            <summary>
+            Defined by PostgreSQL to represent an infinite lower bound.
+            Some element types may have specific handling for this value distinct from a missing or null value.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.UpperInfinityLiteral">
+            <summary>
+            Defined by PostgreSQL to represent an infinite upper bound.
+            Some element types may have specific handling for this value distinct from a missing or null value.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.NullLiteral">
+            <summary>
+            Defined by PostgreSQL to represent an null bound.
+            Some element types may have specific handling for this value distinct from an infinite or missing value.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.LowerInclusiveBound">
+            <summary>
+            Defined by PostgreSQL to represent a lower inclusive bound.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.LowerExclusiveBound">
+            <summary>
+            Defined by PostgreSQL to represent a lower exclusive bound.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.UpperInclusiveBound">
+            <summary>
+            Defined by PostgreSQL to represent an upper inclusive bound.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.UpperExclusiveBound">
+            <summary>
+            Defined by PostgreSQL to represent an upper exclusive bound.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.BoundSeparator">
+            <summary>
+            Defined by PostgreSQL to separate the values for the upper and lower bounds.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.BoundConverter">
+            <summary>
+            The <see cref="T:System.ComponentModel.TypeConverter"/> used by <see cref="M:NpgsqlTypes.NpgsqlRange`1.Parse(System.String)"/> to convert <see cref="T:System.String"/> bounds into <typeparamref name="T"/>.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.HasEquatableBounds">
+            <summary>
+            True if <typeparamref name="T"/> implements <see cref="T:System.IEquatable`1"/>; otherwise, false.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.Empty">
+            <summary>
+            Represents the empty range. This field is read-only.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlRange`1.LowerBound">
+            <summary>
+            The lower bound of the range. Only valid when <see cref="P:NpgsqlTypes.NpgsqlRange`1.LowerBoundInfinite"/> is false.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlRange`1.UpperBound">
+            <summary>
+            The upper bound of the range. Only valid when <see cref="P:NpgsqlTypes.NpgsqlRange`1.UpperBoundInfinite"/> is false.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlRange`1.Flags">
+            <summary>
+            The characteristics of the boundaries.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlRange`1.LowerBoundIsInclusive">
+            <summary>
+            True if the lower bound is part of the range (i.e. inclusive); otherwise, false.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlRange`1.UpperBoundIsInclusive">
+            <summary>
+            True if the upper bound is part of the range (i.e. inclusive); otherwise, false.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlRange`1.LowerBoundInfinite">
+            <summary>
+            True if the lower bound is indefinite (i.e. infinite or unbounded); otherwise, false.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlRange`1.UpperBoundInfinite">
+            <summary>
+            True if the upper bound is indefinite (i.e. infinite or unbounded); otherwise, false.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlRange`1.IsEmpty">
+            <summary>
+            True if the range is empty; otherwise, false.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.#ctor(`0,`0)">
+            <summary>
+            Constructs an <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> with inclusive and definite bounds.
+            </summary>
+            <param name="lowerBound">The lower bound of the range.</param>
+            <param name="upperBound">The upper bound of the range.</param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.#ctor(`0,System.Boolean,`0,System.Boolean)">
+            <summary>
+            Constructs an <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> with definite bounds.
+            </summary>
+            <param name="lowerBound">The lower bound of the range.</param>
+            <param name="lowerBoundIsInclusive">True if the lower bound is is part of the range (i.e. inclusive); otherwise, false.</param>
+            <param name="upperBound">The upper bound of the range.</param>
+            <param name="upperBoundIsInclusive">True if the upper bound is part of the range (i.e. inclusive); otherwise, false.</param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.#ctor(`0,System.Boolean,System.Boolean,`0,System.Boolean,System.Boolean)">
+            <summary>
+            Constructs an <see cref="T:NpgsqlTypes.NpgsqlRange`1"/>.
+            </summary>
+            <param name="lowerBound">The lower bound of the range.</param>
+            <param name="lowerBoundIsInclusive">True if the lower bound is is part of the range (i.e. inclusive); otherwise, false.</param>
+            <param name="lowerBoundInfinite">True if the lower bound is indefinite (i.e. infinite or unbounded); otherwise, false.</param>
+            <param name="upperBound">The upper bound of the range.</param>
+            <param name="upperBoundIsInclusive">True if the upper bound is part of the range (i.e. inclusive); otherwise, false.</param>
+            <param name="upperBoundInfinite">True if the upper bound is indefinite (i.e. infinite or unbounded); otherwise, false.</param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.#ctor(`0,`0,NpgsqlTypes.RangeFlags)">
+            <summary>
+            Constructs an <see cref="T:NpgsqlTypes.NpgsqlRange`1"/>.
+            </summary>
+            <param name="lowerBound">The lower bound of the range.</param>
+            <param name="upperBound">The upper bound of the range.</param>
+            <param name="flags">The characteristics of the range boundaries.</param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.IsEmptyRange(`0,`0,NpgsqlTypes.RangeFlags)">
+            <summary>
+            Attempts to determine if the range is malformed or implicitly empty.
+            </summary>
+            <param name="lowerBound">The lower bound of the range.</param>
+            <param name="upperBound">The upper bound of the range.</param>
+            <param name="flags">The characteristics of the range boundaries.</param>
+            <returns>
+            True if the range is implicitly empty; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.EvaluateBoundaryFlags(System.Boolean,System.Boolean,System.Boolean,System.Boolean)">
+            <summary>
+            Evaluates the boundary flags.
+            </summary>
+            <param name="lowerBoundIsInclusive">True if the lower bound is is part of the range (i.e. inclusive); otherwise, false.</param>
+            <param name="lowerBoundInfinite">True if the lower bound is indefinite (i.e. infinite or unbounded); otherwise, false.</param>
+            <param name="upperBoundIsInclusive">True if the upper bound is part of the range (i.e. inclusive); otherwise, false.</param>
+            <param name="upperBoundInfinite">True if the upper bound is indefinite (i.e. infinite or unbounded); otherwise, false.</param>
+            <returns>
+            The boundary characteristics.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.op_Equality(NpgsqlTypes.NpgsqlRange{`0},NpgsqlTypes.NpgsqlRange{`0})">
+            <summary>
+            Indicates whether the <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the left is equal to the <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the right.
+            </summary>
+            <param name="x">The <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the left.</param>
+            <param name="y">The <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the right.</param>
+            <returns>
+            True if the <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the left is equal to the <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the right; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.op_Inequality(NpgsqlTypes.NpgsqlRange{`0},NpgsqlTypes.NpgsqlRange{`0})">
+            <summary>
+            Indicates whether the <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the left is not equal to the <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the right.
+            </summary>
+            <param name="x">The <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the left.</param>
+            <param name="y">The <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the right.</param>
+            <returns>
+            True if the <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the left is not equal to the <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> on the right; otherwise, false.
+            </returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.Equals(NpgsqlTypes.NpgsqlRange{`0})">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.ToString">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.Parse(System.String)">
+            <summary>
+            Parses the well-known text representation of a PostgreSQL range type into a <see cref="T:NpgsqlTypes.NpgsqlRange`1"/>.
+            </summary>
+            <param name="value">A PosgreSQL range type in a well-known text format.</param>
+            <returns>
+            The <see cref="T:NpgsqlTypes.NpgsqlRange`1"/> represented by the <paramref name="value"/>.
+            </returns>
+            <exception cref="T:System.FormatException">
+            Malformed range literal.
+            </exception>
+            <exception cref="T:System.FormatException">
+            Malformed range literal. Missing left parenthesis or bracket.
+            </exception>
+            <exception cref="T:System.FormatException">
+            Malformed range literal. Missing right parenthesis or bracket.
+            </exception>
+            <exception cref="T:System.FormatException">
+            Malformed range literal. Missing comma after lower bound.
+            </exception>
+            <remarks>
+            See: https://www.postgresql.org/docs/current/static/rangetypes.html
+            </remarks>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlRange`1.RangeTypeConverter">
+            <summary>
+            Represents a type converter for <see cref="T:NpgsqlTypes.NpgsqlRange`1" />.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.RangeTypeConverter.Register">
+            <summary>
+            Adds a <see cref="T:System.ComponentModel.TypeConverterAttribute"/> to the closed form <see cref="T:NpgsqlTypes.NpgsqlRange`1"/>.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.RangeTypeConverter.CanConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.RangeTypeConverter.CanConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.RangeTypeConverter.ConvertFrom(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlRange`1.RangeTypeConverter.ConvertTo(System.ComponentModel.ITypeDescriptorContext,System.Globalization.CultureInfo,System.Object,System.Type)">
+            <inheritdoc />
+        </member>
+        <member name="T:NpgsqlTypes.RangeFlags">
+            <summary>
+            Represents characteristics of range type boundaries.
+            </summary>
+            <remarks>
+            See: https://www.postgresql.org/docs/current/static/rangetypes.html
+            </remarks>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.None">
+            <summary>
+            The default flag. The range is not empty and has boundaries that are definite and exclusive.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.Empty">
+            <summary>
+            The range is empty. E.g. '(0,0)', 'empty'.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.LowerBoundInclusive">
+            <summary>
+            The lower bound is inclusive. E.g. '[0,5]', '[0,5)', '[0,)'.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.UpperBoundInclusive">
+            <summary>
+            The upper bound is inclusive. E.g. '[0,5]', '(0,5]', '(,5]'.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.LowerBoundInfinite">
+            <summary>
+            The lower bound is infinite or indefinite. E.g. '(null,5]', '(-infinity,5]', '(,5]'.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.UpperBoundInfinite">
+            <summary>
+            The upper bound is infinite or indefinite. E.g. '[0,null)', '[0,infinity)', '[0,)'.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.Inclusive">
+            <summary>
+            Both the lower and upper bounds are inclusive.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.Infinite">
+            <summary>
+            Both the lower and upper bounds are indefinite.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.LowerInclusiveInfinite">
+            <summary>
+            The lower bound is both inclusive and indefinite. This represents an error condition.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.RangeFlags.UpperInclusiveInfinite">
+            <summary>
+            The upper bound is both inclusive and indefinite. This represents an error condition.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQuery">
+            <summary>
+            Represents a PostgreSQL tsquery. This is the base class for the
+            lexeme, not, or, and, and "followed by" nodes.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsQuery.Kind">
+            <summary>
+            Node kind
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQuery.NodeKind">
+            <summary>
+            NodeKind
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQuery.NodeKind.Empty">
+            <summary>
+            Represents the empty tsquery. Should only be used at top level.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQuery.NodeKind.Lexeme">
+            <summary>
+            Lexeme
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQuery.NodeKind.Not">
+            <summary>
+            Not operator
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQuery.NodeKind.And">
+            <summary>
+            And operator
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQuery.NodeKind.Or">
+            <summary>
+            Or operator
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQuery.NodeKind.Phrase">
+            <summary>
+            "Followed by" operator
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.#ctor(NpgsqlTypes.NpgsqlTsQuery.NodeKind)">
+            <summary>
+            Constructs an <see cref="T:NpgsqlTypes.NpgsqlTsQuery"/>.
+            </summary>
+            <param name="kind"></param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.Write(System.Text.StringBuilder)">
+            <summary>
+            Writes the tsquery in PostgreSQL's text format.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.ToString">
+            <summary>
+            Writes the tsquery in PostgreSQL's text format.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.Parse(System.String)">
+            <summary>
+            Parses a tsquery in PostgreSQL's text format.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.Equals(System.Object)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.Equals(NpgsqlTypes.NpgsqlTsQuery)">
+            <summary>
+            Returns a value indicating whether this instance and a specified <see cref="T:NpgsqlTypes.NpgsqlTsQuery"/> object represent the same value.
+            </summary>
+            <param name="other">An object to compare to this instance.</param>
+            <returns><see langword="true"/> if g is equal to this instance; otherwise, <see langword="false"/>.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.op_Equality(NpgsqlTypes.NpgsqlTsQuery,NpgsqlTypes.NpgsqlTsQuery)">
+            <summary>
+            Indicates whether the values of two specified <see cref="T:NpgsqlTypes.NpgsqlTsQuery"/> objects are equal.
+            </summary>
+            <param name="left">The first object to compare.</param>
+            <param name="right">The second object to compare.</param>
+            <returns><see langword="true"/> if <paramref name="left"/> and <paramref name="right"/> are equal; otherwise, <see langword="false"/>.</returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQuery.op_Inequality(NpgsqlTypes.NpgsqlTsQuery,NpgsqlTypes.NpgsqlTsQuery)">
+            <summary>
+            Indicates whether the values of two specified <see cref="T:NpgsqlTypes.NpgsqlTsQuery"/> objects are not equal.
+            </summary>
+            <param name="left">The first object to compare.</param>
+            <param name="right">The second object to compare.</param>
+            <returns><see langword="true"/> if <paramref name="left"/> and <paramref name="right"/> are not equal; otherwise, <see langword="false"/>.</returns>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQueryLexeme">
+            <summary>
+            TsQuery Lexeme node.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsQueryLexeme.Text">
+            <summary>
+            Lexeme text.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsQueryLexeme.Weights">
+            <summary>
+            Weights is a bitmask of the Weight enum.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsQueryLexeme.IsPrefixSearch">
+            <summary>
+            Prefix search.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryLexeme.#ctor(System.String)">
+            <summary>
+            Creates a tsquery lexeme with only lexeme text.
+            </summary>
+            <param name="text">Lexeme text.</param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryLexeme.#ctor(System.String,NpgsqlTypes.NpgsqlTsQueryLexeme.Weight)">
+            <summary>
+            Creates a tsquery lexeme with lexeme text and weights.
+            </summary>
+            <param name="text">Lexeme text.</param>
+            <param name="weights">Bitmask of enum Weight.</param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryLexeme.#ctor(System.String,NpgsqlTypes.NpgsqlTsQueryLexeme.Weight,System.Boolean)">
+            <summary>
+            Creates a tsquery lexeme with lexeme text, weights and prefix search flag.
+            </summary>
+            <param name="text">Lexeme text.</param>
+            <param name="weights">Bitmask of enum Weight.</param>
+            <param name="isPrefixSearch">Is prefix search?</param>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQueryLexeme.Weight">
+            <summary>
+            Weight enum, can be OR'ed together.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQueryLexeme.Weight.None">
+            <summary>
+            None
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQueryLexeme.Weight.D">
+            <summary>
+            D
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQueryLexeme.Weight.C">
+            <summary>
+            C
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQueryLexeme.Weight.B">
+            <summary>
+            B
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsQueryLexeme.Weight.A">
+            <summary>
+            A
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryLexeme.Equals(NpgsqlTypes.NpgsqlTsQuery)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryLexeme.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQueryNot">
+            <summary>
+            TsQuery Not node.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsQueryNot.Child">
+            <summary>
+            Child node
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryNot.#ctor(NpgsqlTypes.NpgsqlTsQuery)">
+            <summary>
+            Creates a not operator, with a given child node.
+            </summary>
+            <param name="child"></param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryNot.Equals(NpgsqlTypes.NpgsqlTsQuery)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryNot.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQueryBinOp">
+            <summary>
+            Base class for TsQuery binary operators (&amp; and |).
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsQueryBinOp.Left">
+            <summary>
+            Left child
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsQueryBinOp.Right">
+            <summary>
+            Right child
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryBinOp.#ctor(NpgsqlTypes.NpgsqlTsQuery.NodeKind,NpgsqlTypes.NpgsqlTsQuery,NpgsqlTypes.NpgsqlTsQuery)">
+            <summary>
+            Constructs a <see cref="T:NpgsqlTypes.NpgsqlTsQueryBinOp"/>.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQueryAnd">
+            <summary>
+            TsQuery And node.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryAnd.#ctor(NpgsqlTypes.NpgsqlTsQuery,NpgsqlTypes.NpgsqlTsQuery)">
+            <summary>
+            Creates an and operator, with two given child nodes.
+            </summary>
+            <param name="left"></param>
+            <param name="right"></param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryAnd.Equals(NpgsqlTypes.NpgsqlTsQuery)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryAnd.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQueryOr">
+            <summary>
+            TsQuery Or Node.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryOr.#ctor(NpgsqlTypes.NpgsqlTsQuery,NpgsqlTypes.NpgsqlTsQuery)">
+            <summary>
+            Creates an or operator, with two given child nodes.
+            </summary>
+            <param name="left"></param>
+            <param name="right"></param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryOr.Equals(NpgsqlTypes.NpgsqlTsQuery)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryOr.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQueryFollowedBy">
+            <summary>
+            TsQuery "Followed by" Node.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsQueryFollowedBy.Distance">
+            <summary>
+            The distance between the 2 nodes, in lexemes.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryFollowedBy.#ctor(NpgsqlTypes.NpgsqlTsQuery,System.Int32,NpgsqlTypes.NpgsqlTsQuery)">
+            <summary>
+            Creates a "followed by" operator, specifying 2 child nodes and the
+            distance between them in lexemes.
+            </summary>
+            <param name="left"></param>
+            <param name="distance"></param>
+            <param name="right"></param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryFollowedBy.Equals(NpgsqlTypes.NpgsqlTsQuery)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryFollowedBy.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsQueryEmpty">
+            <summary>
+            Represents an empty tsquery. Shold only be used as top node.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryEmpty.#ctor">
+            <summary>
+            Creates a tsquery that represents an empty query. Should not be used as child node.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryEmpty.Equals(NpgsqlTypes.NpgsqlTsQuery)">
+            <inheritdoc/>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsQueryEmpty.GetHashCode">
+            <inheritdoc/>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsVector">
+            <summary>
+            Represents a PostgreSQL tsvector.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.#ctor(System.Collections.Generic.List{NpgsqlTypes.NpgsqlTsVector.Lexeme},System.Boolean)">
+            <summary>
+            Represents a PostgreSQL tsvector constructor.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Parse(System.String)">
+            <summary>
+            Parses a tsvector in PostgreSQL's text format.
+            </summary>
+            <param name="value"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsVector.Item(System.Int32)">
+            <summary>
+            Returns the lexeme at a specific index
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsVector.Count">
+            <summary>
+            Gets the number of lexemes.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.GetEnumerator">
+            <summary>
+            Returns an enumerator.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.System#Collections#IEnumerable#GetEnumerator">
+            <summary>
+            Returns an enumerator.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.ToString">
+            <summary>
+            Gets a string representation in PostgreSQL's format.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Equals(NpgsqlTypes.NpgsqlTsVector)">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Equals(System.Object)">
+            <inheritdoc />
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.GetHashCode">
+            <inheritdoc />
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsVector.Lexeme">
+            <summary>
+            Represents a lexeme. A lexeme consists of a text string and optional word entry positions.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsVector.Lexeme.Text">
+            <summary>
+            Gets or sets the text.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPositions">
+            <summary>
+            List of WordEntryPos.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.#ctor(System.String)">
+            <summary>
+            Creates a lexeme with no word entry positions.
+            </summary>
+            <param name="text"></param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.#ctor(System.String,System.Collections.Generic.List{NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos})">
+            <summary>
+            Creates a lexeme with word entry positions.
+            </summary>
+            <param name="text"></param>
+            <param name="wordEntryPositions"></param>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.#ctor(System.String,System.Collections.Generic.List{NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos},System.Boolean)">
+            <summary>
+            Creates a lexeme with word entry positions.
+            </summary>
+            <param name="text"></param>
+            <param name="wordEntryPositions"></param>
+            <param name="noCopy"></param>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsVector.Lexeme.Item(System.Int32)">
+            <summary>
+            Gets a word entry position.
+            </summary>
+            <param name="index"></param>
+            <returns></returns>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsVector.Lexeme.Count">
+            <summary>
+            Gets the number of word entry positions.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.ToString">
+            <summary>
+            Creates a string representation in PostgreSQL's format.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos">
+            <summary>
+            Represents a word entry position and an optional weight.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.Value">
+            <summary>
+            Represents a word entry value.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.#ctor(System.Int32,NpgsqlTypes.NpgsqlTsVector.Lexeme.Weight)">
+            <summary>
+            Creates a WordEntryPos with a given position and weight.
+            </summary>
+            <param name="pos">Position values can range from 1 to 16383; larger numbers are silently set to 16383.</param>
+            <param name="weight">A weight labeled between A and D.</param>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.Weight">
+            <summary>
+            The weight is labeled from A to D. D is the default, and not printed.
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.Pos">
+            <summary>
+            The position is a 14-bit unsigned integer indicating the position in the text this lexeme occurs. Cannot be 0.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.ToString">
+            <summary>
+            Prints this lexeme in PostgreSQL's format, i.e. position is followed by weight (weight is only printed if A, B or C).
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.Equals(NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos)">
+            <summary>
+            Determines whether the specified object is equal to the current object.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.Equals(System.Object)">
+            <summary>
+            Determines whether the specified object is equal to the current object.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.GetHashCode">
+            <summary>
+            Gets a hash code for the current object.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.op_Equality(NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos,NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos)">
+            <summary>
+            Determines whether the specified object is equal to the current object.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos.op_Inequality(NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos,NpgsqlTypes.NpgsqlTsVector.Lexeme.WordEntryPos)">
+            <summary>
+            Determines whether the specified object is unequal to the current object.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTsVector.Lexeme.Weight">
+            <summary>
+            The weight is labeled from A to D. D is the default, and not printed.
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsVector.Lexeme.Weight.D">
+            <summary>
+            D, the default
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsVector.Lexeme.Weight.C">
+            <summary>
+            C
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsVector.Lexeme.Weight.B">
+            <summary>
+            B
+            </summary>
+        </member>
+        <member name="F:NpgsqlTypes.NpgsqlTsVector.Lexeme.Weight.A">
+            <summary>
+            A
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.Equals(NpgsqlTypes.NpgsqlTsVector.Lexeme)">
+            <summary>
+            Determines whether the specified object is equal to the current object.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.Equals(System.Object)">
+            <summary>
+            Determines whether the specified object is equal to the current object.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.GetHashCode">
+            <summary>
+            Gets a hash code for the current object.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.op_Equality(NpgsqlTypes.NpgsqlTsVector.Lexeme,NpgsqlTypes.NpgsqlTsVector.Lexeme)">
+            <summary>
+            Determines whether the specified object is equal to the current object.
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.NpgsqlTsVector.Lexeme.op_Inequality(NpgsqlTypes.NpgsqlTsVector.Lexeme,NpgsqlTypes.NpgsqlTsVector.Lexeme)">
+            <summary>
+            Determines whether the specified object is unequal to the current object.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.PGUtil">
+            <summary>
+            Partial class added to avoid importing all the PGUtil here.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlPoint">
+            <summary>
+            Represents a PostgreSQL point type.
+            </summary>
+            <remarks>
+            See https://www.postgresql.org/docs/current/static/datatype-geometric.html
+            </remarks>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlLine">
+            <summary>
+            Represents a PostgreSQL line type.
+            </summary>
+            <remarks>
+            See https://www.postgresql.org/docs/current/static/datatype-geometric.html
+            </remarks>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlLSeg">
+            <summary>
+            Represents a PostgreSQL Line Segment type.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlBox">
+            <summary>
+            Represents a PostgreSQL box type.
+            </summary>
+            <remarks>
+            See https://www.postgresql.org/docs/current/static/datatype-geometric.html
+            </remarks>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlPath">
+            <summary>
+            Represents a PostgreSQL Path type.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlPolygon">
+            <summary>
+            Represents a PostgreSQL Polygon type.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlCircle">
+            <summary>
+            Represents a PostgreSQL Circle type.
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlInet">
+            <summary>
+            Represents a PostgreSQL inet type, which is a combination of an IPAddress and a
+            subnet mask.
+            </summary>
+            <remarks>
+            https://www.postgresql.org/docs/current/static/datatype-net-types.html
+            </remarks>
+        </member>
+        <member name="T:NpgsqlTypes.NpgsqlTid">
+            <summary>
+            Represents a PostgreSQL tid value
+            </summary>
+            <remarks>
+            https://www.postgresql.org/docs/current/static/datatype-oid.html
+            </remarks>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTid.BlockNumber">
+            <summary>
+            Block number
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.NpgsqlTid.OffsetNumber">
+            <summary>
+            Tuple index within block
+            </summary>
+        </member>
+        <member name="T:NpgsqlTypes.PgNameAttribute">
+            <summary>
+            Indicates that this property or field corresponds to a PostgreSQL field with the specified name
+            </summary>
+        </member>
+        <member name="P:NpgsqlTypes.PgNameAttribute.PgName">
+            <summary>
+            The name of PostgreSQL field that corresponds to this CLR property or field
+            </summary>
+        </member>
+        <member name="M:NpgsqlTypes.PgNameAttribute.#ctor(System.String)">
+            <summary>
+            Indicates that this property or field corresponds to a PostgreSQL field with the specified name
+            </summary>
+            <param name="pgName">The name of PostgreSQL field that corresponds to this CLR property or field</param>
+        </member>
+    </members>
+</doc>

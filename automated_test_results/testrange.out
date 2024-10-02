@@ -1,0 +1,229 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseint4range(int4range, integer) does not exist
+LINE 2: SELECT 'c#-int4range', 'IncreaseInt4Range1', IncreaseInt4Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4range(int4range, integer) does not exist
+LINE 2: SELECT 'c#-int4range', 'IncreaseInt4Range2', IncreaseInt4Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4range(int4range, integer) does not exist
+LINE 2: SELECT 'c#-int4range', 'IncreaseInt4Range3', IncreaseInt4Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4range(int4range, integer) does not exist
+LINE 2: SELECT 'c#-int4range', 'IncreaseInt4Range4', IncreaseInt4Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4range(int4range, integer) does not exist
+LINE 2: SELECT 'c#-int4range', 'IncreaseInt4Range5', IncreaseInt4Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint4range(int4range, integer) does not exist
+LINE 2: SELECT 'c#-int4range-null', 'IncreaseInt4Range6', IncreaseIn...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseint8range(int8range, integer) does not exist
+LINE 2: SELECT 'c#-int8range', 'IncreaseInt8Range1', IncreaseInt8Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8range(int8range, integer) does not exist
+LINE 2: SELECT 'c#-int8range', 'IncreaseInt8Range2', IncreaseInt8Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8range(int8range, integer) does not exist
+LINE 2: SELECT 'c#-int8range', 'IncreaseInt8Range3', IncreaseInt8Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8range(int8range, integer) does not exist
+LINE 2: SELECT 'c#-int8range', 'IncreaseInt8Range8', IncreaseInt8Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8range(int8range, integer) does not exist
+LINE 2: SELECT 'c#-int8range', 'IncreaseInt8Range5', IncreaseInt8Ran...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseint8range(int8range, integer) does not exist
+LINE 2: SELECT 'c#-int8range-null', 'IncreaseInt8Range6', IncreaseIn...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasetimestamprange(tsrange, integer) does not exist
+LINE 2: SELECT 'c#-tsrange', 'IncreaseTimestampRange1', IncreaseTime...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamprange(tsrange, integer) does not exist
+LINE 2: SELECT 'c#-tsrange', 'IncreaseTimestampRange2', IncreaseTime...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamprange(tsrange, integer) does not exist
+LINE 2: SELECT 'c#-tsrange', 'IncreaseTimestampRange3', IncreaseTime...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamprange(tsrange, integer) does not exist
+LINE 2: SELECT 'c#-tsrange', 'IncreaseTimestampRange4', IncreaseTime...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamprange(tsrange, integer) does not exist
+LINE 2: ...ECT 'c#-tsrange-null', 'IncreaseTimestampRange5', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasetimestamptzrange(tstzrange, integer) does not exist
+LINE 2: ...LECT 'c#-tstzrange', 'IncreaseTimestampTzRange1', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamptzrange(tstzrange, integer) does not exist
+LINE 2: ...LECT 'c#-tstzrange', 'IncreaseTimestampTzRange2', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamptzrange(tstzrange, integer) does not exist
+LINE 2: ...LECT 'c#-tstzrange', 'IncreaseTimestampTzRange3', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamptzrange(tstzrange, integer) does not exist
+LINE 2: ...LECT 'c#-tstzrange', 'IncreaseTimestampTzRange4', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasetimestamptzrange(tstzrange, integer) does not exist
+LINE 2: ...'c#-tstzrange-null', 'IncreaseTimestampTzRange5', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasedateonlyrange(daterange, integer) does not exist
+LINE 2: SELECT 'c#-daterange', 'IncreaseDateonlyRange1', IncreaseDat...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasedateonlyrange(daterange, integer) does not exist
+LINE 2: SELECT 'c#-daterange', 'IncreaseDateonlyRange2', IncreaseDat...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasedateonlyrange(daterange, integer) does not exist
+LINE 2: SELECT 'c#-daterange', 'IncreaseDateonlyRange3', IncreaseDat...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasedateonlyrange(daterange, integer) does not exist
+LINE 2: SELECT 'c#-daterange', 'IncreaseDateonlyRange4', IncreaseDat...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasedateonlyrange(daterange, integer) does not exist
+LINE 2: ...CT 'c#-daterange-null', 'IncreaseDateonlyRange5', IncreaseDa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updateint4rangeindex(int4range[], int4range, integer[]) does not exist
+LINE 2: ...-int4range-null-1array', 'updateInt4RangeIndex1', updateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint4rangeindex(int4range[], int4range, integer[]) does not exist
+LINE 2: ...-int4range-null-2array', 'updateInt4RangeIndex2', updateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint4rangeindex(int4range[], int4range, integer[]) does not exist
+LINE 2: ...-null-2array-arraynull', 'updateInt4RangeIndex3', updateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseint4ranges(int4range[]) does not exist
+LINE 2: ...c#-int4range-null-1array', 'IncreaseInt4Ranges1', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createint4rangearray() does not exist
+LINE 2: ...-null-3array-arraynull', 'CreateInt4RangeArray1', CreateInt4...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updateint8rangeindex(int8range[], int8range, integer[]) does not exist
+LINE 2: ...-int8range-null-1array', 'updateInt8RangeIndex1', updateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint8rangeindex(int8range[], int8range, integer[]) does not exist
+LINE 2: ...-int8range-null-2array', 'updateInt8RangeIndex2', updateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateint8rangeindex(int8range[], int8range, integer[]) does not exist
+LINE 2: ...-null-2array-arraynull', 'updateInt8RangeIndex3', updateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseint8ranges(int8range[]) does not exist
+LINE 2: ...c#-int8range-null-1array', 'IncreaseInt8Ranges1', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createint8rangearray() does not exist
+LINE 2: ...-null-3array-arraynull', 'CreateInt8RangeArray1', CreateInt8...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatetimestamprangeindex(tsrange[], tsrange, integer[]) does not exist
+LINE 2: ...range-null-1array', 'updateTimestampRangeIndex1', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamprangeindex(tsrange[], tsrange, integer[]) does not exist
+LINE 2: ...range-null-2array', 'updateTimestampRangeIndex2', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamprangeindex(tsrange[], tsrange, integer[]) does not exist
+LINE 2: ...-2array-arraynull', 'updateTimestampRangeIndex3', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasetimestampranges(tsrange[]) does not exist
+LINE 2: ...tsrange-null-1array', 'IncreaseTimestampRanges1', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createtimestamprangearray() does not exist
+LINE 2: ...-3array-arraynull', 'CreateTimestampRangeArray1', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatetimestamptzrangeindex(tstzrange[], tstzrange, integer[]) does not exist
+LINE 2: ...nge-null-1array', 'updateTimestampTzRangeIndex1', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamptzrangeindex(tstzrange[], tstzrange, integer[]) does not exist
+LINE 2: ...nge-null-2array', 'updateTimestampTzRangeIndex2', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatetimestamptzrangeindex(tstzrange[], tstzrange, integer[]) does not exist
+LINE 2: ...array-arraynull', 'updateTimestampTzRangeIndex3', updateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasetimestamptzranges(tstzrange[]) does not exist
+LINE 2: ...range-null-1array', 'IncreaseTimestampTzRanges1', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createtimestamptzrangearray() does not exist
+LINE 2: ...array-arraynull', 'CreateTimestampTzRangeArray1', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatedateonlyrangeindex(daterange[], daterange, integer[]) does not exist
+LINE 2: ...erange-null-1array', 'updateDateonlyRangeIndex1', updateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatedateonlyrangeindex(daterange[], daterange, integer[]) does not exist
+LINE 2: ...erange-null-2array', 'updateDateonlyRangeIndex2', updateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatedateonlyrangeindex(daterange[], daterange, integer[]) does not exist
+LINE 2: ...l-2array-arraynull', 'updateDateonlyRangeIndex3', updateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasedateonlyranges(daterange[]) does not exist
+LINE 2: ...aterange-null-1array', 'IncreaseDateonlyRanges1', IncreaseDa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createdateonlyrangearray() does not exist
+LINE 2: ...l-3array-arraynull', 'CreateDateonlyRangeArray1', CreateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

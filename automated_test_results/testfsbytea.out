@@ -1,0 +1,40 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function byteaconversionsfsharp(bytea, bytea) does not exist
+LINE 2: SELECT 'f#-bytea', 'byteaConversionsFSharp1', byteaConversio...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function byteaconversionsfsharp(bytea, bytea) does not exist
+LINE 2: ...ELECT 'f#-bytea-null', 'byteaConversionsFSharp2', byteaConve...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatebyteaarrayindex(bytea[], bytea) does not exist
+LINE 2: ...'f#-bytea-null-1array', 'updateByteaArrayIndex1', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebyteaarrayindex(bytea[], bytea) does not exist
+LINE 2: ...'f#-bytea-null-2array', 'updateByteaArrayIndex2', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebyteaarrayindex(bytea[], bytea) does not exist
+LINE 2: ...'f#-bytea-null-3array', 'updateByteaArrayIndex3', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebyteaarrayindex(bytea[], bytea) does not exist
+LINE 2: ...null-1array-arraynull', 'updateByteaArrayIndex4', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebyteaarrayindex(bytea[], bytea) does not exist
+LINE 2: ...null-2array-arraynull', 'updateByteaArrayIndex3', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebyteaarrayindex(bytea[], bytea) does not exist
+LINE 2: ...null-3array-arraynull', 'updateByteaArrayIndex3', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createbyteamultidimensionalarray() does not exist
+LINE 2: ...-arraynull', 'CreateByteaMultidimensionalArray1', CreateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

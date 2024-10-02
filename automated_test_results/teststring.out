@@ -1,0 +1,175 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function identitystr(unknown) does not exist
+LINE 2: SELECT 'c#-text', 'identityStr', identityStr('dog') = 'dog';
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function concatenatetext(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-text', 'concatenateText1', concatenateText('red',...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatetext(text, unknown) does not exist
+LINE 2: SELECT 'c#-text-null', 'concatenateText2', concatenateText(N...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatetext(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-text', 'concatenateText3', concatenateText('КРАСН...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatetext(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-text', 'concatenateText4', concatenateText('赤', ...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatetext(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-text', 'concatenateText5', concatenateText('紅色...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatetext(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-text', 'concatenateText6', concatenateText('🐂', ...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function multiplytext(unknown, integer) does not exist
+LINE 2: SELECT 'c#-text', 'multiplyText', multiplyText('dog ', 3) = ...
+                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function addgoodbye(unknown) does not exist
+LINE 2: SELECT 'c#-bpchar', 'testingBpChar', addGoodbye('HELLO!') = ...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function concatenatechars(character, character, character) does not exist
+LINE 2: SELECT 'c#-bpchar', 'concatenateChars1', concatenateChars('h...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatechars(character, character, character) does not exist
+LINE 2: SELECT 'c#-bpchar-null', 'concatenateChars2', concatenateCha...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function concatenatevarchars(character varying, character varying, character) does not exist
+LINE 2: SELECT 'c#-varchar', 'concatenateVarChars1', concatenateVarC...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatevarchars(character varying, character varying, character) does not exist
+LINE 2: SELECT 'c#-varchar-null', 'concatenateVarChars2', concatenat...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function multiplyvarchar(character varying, integer) does not exist
+LINE 2: SELECT 'c#-varchar', 'multiplyVarChar', multiplyVarChar('hel...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifyxml(xml) does not exist
+LINE 2: SELECT 'c#-xml', 'modifyXml1', modifyXml('<?xml version="1.0...
+                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyxml(xml) does not exist
+LINE 2: SELECT 'c#-xml-null', 'modifyXml2', modifyXml(NULL::XML)::te...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createxml(text, text, text) does not exist
+LINE 2: SELECT 'c#-xml', 'createXml', createXml('hello world'::TEXT,...
+                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returntextarray(text[]) does not exist
+LINE 2: SELECT 'c#-text-null-1array', 'returnTextArray1', returnText...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returntextarray(text[]) does not exist
+LINE 2: ...-text-null-2array-arraynull', 'returnTextArray2', returnText...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returntextarray(text[]) does not exist
+LINE 2: ...-text-null-3array-arraynull', 'returnTextArray3', returnText...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function jointextarray(text[]) does not exist
+LINE 2: SELECT 'c#-text-null-1array', 'JoinTextArray1', JoinTextArra...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function jointextarray(text[]) does not exist
+LINE 2: SELECT 'c#-text-null-3array', 'JoinTextArray2', JoinTextArra...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createtextmultidimensionalarray() does not exist
+LINE 2: ...ay-arraynull', 'CreateTextMultidimensionalArray', CreateText...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraytextindex(text[], unknown, integer[]) does not exist
+LINE 2: ...T 'c#-text-null-1array', 'updateArrayTextIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytextindex(text[], unknown, integer[]) does not exist
+LINE 2: ...T 'c#-text-null-3array', 'updateArrayTextIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatechararrayindex(character[], character, integer[]) does not exist
+LINE 2: ...'c#-bpchar-null-1array', 'updateCharArrayIndex1', updateChar...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatechararrayindex(character[], character, integer[]) does not exist
+LINE 2: ...-null-2array-arraynull', 'updateCharArrayIndex2', updateChar...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatechararrayindex(character[], character, integer[]) does not exist
+LINE 2: ...'c#-bpchar-null-1array', 'updateCharArrayIndex3', updateChar...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function addsmiletochars(character[]) does not exist
+LINE 2: ...LECT 'c#-bpchar-null-1array', 'AddSmileToChars1', AddSmileTo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createcharmultidimensionalarray() does not exist
+LINE 2: ...y-arraynull', 'CreateCharMultidimensionalArray1', CreateChar...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatevarchararrayindex(character varying[], character varying, integer[]) does not exist
+LINE 2: ...varchar-null-1array', 'updateVarcharArrayIndex1', updateVarc...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatevarchararrayindex(character varying[], character varying, integer[]) does not exist
+LINE 2: ...ll-2array-arraynull', 'updateVarcharArrayIndex2', updateVarc...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function addsmiletovarchars(character varying[]) does not exist
+LINE 2: ... 'c#-varchar-null-1array', 'AddSmileToVarchars1', AddSmileTo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function getvarcharmultidimensionarray() does not exist
+LINE 2: ...rray-arraynull', 'GetVarcharMultidimensionArray', GetVarchar...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatexmlarrayindex(xml[], xml, integer[]) does not exist
+LINE 2: ...ECT 'c#-xml-null-1array', 'updateXMLArrayIndex1', updateXMLA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatexmlarrayindex(xml[], xml, integer[]) does not exist
+LINE 2: ...l-null-2array-arraynull', 'updateXMLArrayIndex2', updateXMLA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function replacexmlsword(xml[]) does not exist
+LINE 2: SELECT 'c#-xml-null-1array', 'ReplaceXMLsWord1', ReplaceXMLs...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function getxmlmultidimensionarray() does not exist
+LINE 2: ...l-3array-arraynull', 'GetXMLMultidimensionArray', GetXMLMult...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

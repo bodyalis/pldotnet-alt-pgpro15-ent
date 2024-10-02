@@ -1,0 +1,21 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  function testmoneyfsharp(money) does not exist
+LINE 2: SELECT 'f#-money', 'testMoneyFSharp1', testMoneyFSharp('3250...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function testmoneyfsharp(money) does not exist
+LINE 2: SELECT 'f#-money-null', 'testMoneyFSharp1', testMoneyFSharp(...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatemoneyarrayfsharp(money[], money, integer) does not exist
+LINE 2: ...f#-money-null-1array', 'updateMoneyArrayFSharp1', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatemoneyarrayfsharp(money[], money, integer) does not exist
+LINE 2: ...ull-2array-arraynull', 'updateMoneyArrayFSharp2', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatemoneyarrayfsharp(money[], money, integer) does not exist
+LINE 2: ...ull-2array-arraynull', 'updateMoneyArrayFSharp3', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

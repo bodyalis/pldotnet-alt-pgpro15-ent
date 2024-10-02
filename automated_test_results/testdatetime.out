@@ -1,0 +1,201 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifyinputdate(date) does not exist
+LINE 2: SELECT 'c#-date', 'modifyInputDate1', modifyInputDate(DATE '...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyinputdate(date) does not exist
+LINE 2: SELECT 'c#-date-null', 'modifyInputDate2', modifyInputDate(N...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function addminutes(time without time zone, integer) does not exist
+LINE 2: SELECT 'c#-time', 'addMinutes1', addMinutes(TIME '05:30 PM',...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutes(time without time zone, integer) does not exist
+LINE 2: SELECT 'c#-time-null', 'addMinutes2', addMinutes(NULL::TIME,...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function addhours(time with time zone, numeric) does not exist
+LINE 2: SELECT 'c#-timetz', 'addHours1', addHours(TIMETZ '04:05:06-0...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addhours(time with time zone, numeric) does not exist
+LINE 2: SELECT 'c#-timetz-null', 'addHours2', addHours(NULL::TIMETZ,...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function setnewdate(timestamp without time zone, date) does not exist
+LINE 2: SELECT 'c#-timestamp', 'setNewDate1', setNewDate(TIMESTAMP '...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function setnewdate(timestamp without time zone, date) does not exist
+LINE 2: SELECT 'c#-timestamp-null', 'setNewDate2', setNewDate(NULL::...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function adddays(timestamp with time zone, integer) does not exist
+LINE 2: SELECT 'c#-timestamptz', 'addDays1', addDays(TIMESTAMP WITH ...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function adddays(timestamp with time zone, integer) does not exist
+LINE 2: SELECT 'c#-timestamptz-null', 'addDays2', addDays(NULL::TIME...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifyinterval(interval, integer, integer) does not exist
+LINE 2: SELECT 'c#-interval', 'modifyInterval1', modifyInterval(INTE...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyinterval(interval, integer, integer) does not exist
+LINE 2: SELECT 'c#-interval-null', 'modifyInterval2', modifyInterval...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraydateindex(date[], date, integer[]) does not exist
+LINE 2: SELECT 'c#-date-1array', 'updateArrayDateIndex1', updateArra...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydateindex(date[], date, integer[]) does not exist
+LINE 2: SELECT 'c#-date-2array', 'updateArrayDateIndex2', updateArra...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydateindex(date[], date, integer[]) does not exist
+LINE 2: ...-null-2array-arraynull', 'updateArrayDateIndex3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasemonthdatearray(date[]) does not exist
+LINE 2: ...LECT 'c#-date-1array', 'IncreaseMonthDateArray1', IncreaseMo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increasemonthdatearray(date[]) does not exist
+LINE 2: ...LECT 'c#-date-2array', 'IncreaseMonthDateArray2', IncreaseMo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createdatemultidimensionalarray() does not exist
+LINE 2: ...ay-arraynull', 'CreateDateMultidimensionalArray', CreateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraytimeindex(time without time zone[], time without time zone, integer[]) does not exist
+LINE 2: SELECT 'c#-time-1array', 'updateArrayTimeIndex1', updateArra...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimeindex(time without time zone[], time without time zone, integer[]) does not exist
+LINE 2: SELECT 'c#-time-2array', 'updateArrayTimeIndex2', updateArra...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimeindex(time without time zone[], time without time zone, integer[]) does not exist
+LINE 2: ...-null-2array-arraynull', 'updateArrayTimeIndex3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseminutestimearray(time without time zone[], integer) does not exist
+LINE 2: ...CT 'c#-time-1array', 'IncreaseMinutesTimeArray1', IncreaseMi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseminutestimearray(time without time zone[], integer) does not exist
+LINE 2: ...ECT 'c#-time-2array', 'IncreaseMinutesTimeArray', IncreaseMi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createtimemultidimensionalarray() does not exist
+LINE 2: ...-time-3array', 'CreateTimeMultidimensionalArray', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraytimetzindex(time with time zone[], time with time zone, integer[]) does not exist
+LINE 2: ...CT 'c#-timetz-1array', 'updateArrayTimetzIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimetzindex(time with time zone[], time with time zone, integer[]) does not exist
+LINE 2: ...CT 'c#-timetz-2array', 'updateArrayTimetzIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimetzindex(time with time zone[], time with time zone, integer[]) does not exist
+LINE 2: ...ull-2array-arraynull', 'updateArrayTimetzIndex3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseminutestimetzarray(time with time zone[], integer) does not exist
+LINE 2: ...c#-timetz-1array', 'IncreaseMinutesTimetzArray1', IncreaseMi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseminutestimetzarray(time with time zone[], integer) does not exist
+LINE 2: ...c#-timetz-2array', 'IncreaseMinutesTimetzArray2', IncreaseMi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createtimetzmultidimensionalarray() does not exist
+LINE 2: ...etz-3array', 'CreateTimetzMultidimensionalArray', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraytimestampindex(timestamp without time zone[], timestamp without time zone, integer[]) does not exist
+LINE 2: ...-timestamp-1array', 'updateArrayTimestampIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestampindex(timestamp without time zone[], timestamp without time zone, integer[]) does not exist
+LINE 2: ...-2array-arraynull', 'updateArrayTimestampIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasetimestamps(timestamp without time zone[], integer) does not exist
+LINE 2: ...LECT 'c#-timestamp-1array', 'IncreaseTimestamps', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createtimestampmultidimensionalarray() does not exist
+LINE 2: ...-3array', 'CreateTimestampMultidimensionalArray', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraytimestamptzindex(timestamp with time zone[], timestamp with time zone, integer[]) does not exist
+LINE 2: ...estamptz-1array', 'updateArrayTimestamptzIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestamptzindex(timestamp with time zone[], timestamp with time zone, integer[]) does not exist
+LINE 2: ...array-arraynull', 'updateArrayTimestamptzIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasetimestampstz(timestamp with time zone[], integer) does not exist
+LINE 2: ... 'c#-timestamptz-1array', 'IncreaseTimestampstz', IncreaseTi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createtimestamptzmultidimensionalarray() does not exist
+LINE 2: ...array', 'CreateTimestamptzMultidimensionalArray', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearrayintervalindex(interval[], interval, integer[]) does not exist
+LINE 2: ...c#-interval-1array', 'updateArrayIntervalIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintervalindex(interval[], interval, integer[]) does not exist
+LINE 2: ...c#-interval-2array', 'updateArrayIntervalIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintervalindex(interval[], interval, integer[]) does not exist
+LINE 2: ...l-2array-arraynull', 'updateArrayIntervalIndex3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseintervals(interval[], integer, integer) does not exist
+LINE 2: ...ELECT 'c#-interval-1array', 'IncreaseIntervals1', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function increaseintervals(interval[], integer, integer) does not exist
+LINE 2: ...ELECT 'c#-interval-2array', 'IncreaseIntervals2', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createintervalmultidimensionalarray() does not exist
+LINE 2: ...l-3array', 'CreateIntervalMultidimensionalArray', CreateInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

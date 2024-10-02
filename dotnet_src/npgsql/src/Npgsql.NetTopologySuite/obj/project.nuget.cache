@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "pEdo3HHhLNtqAVyPmQKNSEBG7clxTRtheBsV+arz/bjXA1VkdCE//sLxwGM6TtinfUvE2C4wiXuKsEgDAghCKQ==",
+  "success": false,
+  "projectFilePath": "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.NetTopologySuite/Npgsql.NetTopologySuite.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.codeanalysis.publicapianalyzers/3.3.3/microsoft.codeanalysis.publicapianalyzers.3.3.3.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/root/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/root/.nuget/packages/nettopologysuite/2.5.0/nettopologysuite.2.5.0.nupkg.sha512",
+    "/root/.nuget/packages/nettopologysuite.io.postgis/2.1.0/nettopologysuite.io.postgis.2.1.0.nupkg.sha512",
+    "/root/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
+    "/root/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/root/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
+    "/root/.nuget/packages/system.runtime.compilerservices.unsafe/4.5.3/system.runtime.compilerservices.unsafe.4.5.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Npgsql is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project Npgsql supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

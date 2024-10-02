@@ -1,0 +1,168 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function maxsmallintfsharp() does not exist
+LINE 2: SELECT 'f#-int2', 'maxSmallIntFSharp', maxSmallIntFSharp() =...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function sum2smallintfsharp(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int2', 'sum2SmallIntFSharp1', sum2SmallIntFSharp(...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2smallintfsharp(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int2-null', 'sum2SmallIntFSharp2', sum2SmallIntFS...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2smallintfsharp(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int2-null', 'sum2SmallIntFSharp3', sum2SmallIntFS...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2smallintfsharp(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int2-null', 'sum2SmallIntFSharp4', sum2SmallIntFS...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function maxintegerfsharp() does not exist
+LINE 2: SELECT 'f#-int4', 'maxIntegerFSharp', maxIntegerFSharp() = i...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function multintegersfsharp(integer, integer) does not exist
+LINE 2: SELECT 'f#-int4', 'multIntegersFSharp', multIntegersFSharp(1...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function multintegersfsharp(integer, integer) does not exist
+LINE 2: SELECT 'f#-int4', 'multIntegersFSharp', multIntegersFSharp(5...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function maxbigintfsharp() does not exist
+LINE 2: SELECT 'f#-int8', 'maxBigIntFSharp', maxBigIntFSharp() = int...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function mixedbigintfsharp(smallint, integer, bigint) does not exist
+LINE 2: SELECT 'f#-int8', 'mixedBigIntFSharp', mixedBigIntFSharp('32...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mixedbigintfsharp(smallint, integer, bigint) does not exist
+LINE 2: SELECT 'f#-int8', 'mixedBigIntFSharp', mixedBigIntFSharp('32...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function mixedbigint2fsharp(smallint, bigint) does not exist
+LINE 2: SELECT 'f#-int8', 'mixedBigInt2FSharp1', mixedBigInt2FSharp(...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mixedbigint2fsharp(smallint, bigint) does not exist
+LINE 2: SELECT 'f#-int8-null', 'mixedBigInt2FSharp2', mixedBigInt2FS...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mixedbigint2fsharp(smallint, bigint) does not exist
+LINE 2: SELECT 'f#-int8-null', 'mixedBigInt2FSharp3', mixedBigInt2FS...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mixedbigint2fsharp(smallint, bigint) does not exist
+LINE 2: SELECT 'f#-int8-null', 'mixedBigInt2FSharp4', mixedBigInt2FS...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function mixedbigintfsharp2(smallint, integer, bigint) does not exist
+LINE 2: SELECT 'f#-int8', 'mixedBigIntFSharp2', mixedBigIntFSharp2('...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mixedbigintfsharp2(smallint, integer, bigint) does not exist
+LINE 2: SELECT 'f#-int8', 'mixedBigIntFSharp2', mixedBigIntFSharp2('...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function mult2intfsharp(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int4', 'mult2IntFSharp1', mult2IntFSharp('25'::IN...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mult2intfsharp(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int4-null', 'mult2IntFSharp2', mult2IntFSharp('25...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mult2intfsharp(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int4-null', 'mult2IntFSharp3', mult2IntFSharp(NUL...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function mult2intfsharp(smallint, smallint) does not exist
+LINE 2: SELECT 'f#-int4-null', 'mult2IntFSharp4', mult2IntFSharp(NUL...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnsmallintarrayfsharp(smallint[]) does not exist
+LINE 2: ...-int2-null-1array', 'returnSmallIntArrayFSharp1', returnSmal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnsmallintarrayfsharp(smallint[]) does not exist
+LINE 2: ...-2array-arraynull', 'returnSmallIntArrayFSharp2', returnSmal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnsmallintarrayfsharp(smallint[]) does not exist
+LINE 2: ...-3array-arraynull', 'returnSmallIntArrayFSharp3', returnSmal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createsmallintmultidimensionalarrayfsharp() does not exist
+LINE 2: ...ay', 'CreateSmallIntMultidimensionalArrayFSharp', CreateSmal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modify1darrayfsharp(integer[], smallint) does not exist
+LINE 2: ...CT 'f#-int4-null-1array', 'modify1DArrayFSharp1', modify1DAr...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modify1darrayfsharp(integer[], smallint) does not exist
+LINE 2: ...CT 'f#-int4-null-1array', 'modify1DArrayFSharp2', modify1DAr...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnintegerarrayfsharp(integer[]) does not exist
+LINE 2: ...#-int4-null-1array', 'returnIntegerArrayFSharp1', returnInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnintegerarrayfsharp(integer[]) does not exist
+LINE 2: ...l-2array-arraynull', 'returnIntegerArrayFSharp2', returnInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnintegerarrayfsharp(integer[]) does not exist
+LINE 2: ...l-3array-arraynull', 'returnIntegerArrayFSharp3', returnInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modify2darrayfsharp(bigint[], smallint) does not exist
+LINE 2: ...CT 'f#-int8-null-2array', 'modify2DArrayFSharp1', modify2DAr...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modify2darrayfsharp(bigint[], smallint) does not exist
+LINE 2: ...CT 'f#-int8-null-2array', 'modify2DArrayFSharp2', modify2DAr...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearrayintegerfsharp(bigint[], smallint) does not exist
+LINE 2: ...CT 'f#-int8-1array', 'updateArrayIntegerFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintegerfsharp(bigint[], smallint) does not exist
+LINE 2: ...CT 'f#-int8-2array', 'updateArrayIntegerFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintegerfsharp(bigint[], smallint) does not exist
+LINE 2: ...CT 'f#-int8-3array', 'updateArrayIntegerFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintegerfsharp(bigint[], smallint) does not exist
+LINE 2: ...l-1array-arraynull', 'updateArrayIntegerFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintegerfsharp(bigint[], smallint) does not exist
+LINE 2: ...l-2array-arraynull', 'updateArrayIntegerFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintegerfsharp(bigint[], smallint) does not exist
+LINE 2: ...l-3array-arraynull', 'updateArrayIntegerFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

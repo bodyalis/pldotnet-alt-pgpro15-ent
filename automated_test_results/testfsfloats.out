@@ -1,0 +1,96 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnrealfsharp() does not exist
+LINE 2: SELECT 'f#-float4', 'returnRealFSharp', returnRealFSharp() =...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function sumrealfsharp(numeric, numeric) does not exist
+LINE 2: SELECT 'f#-float4', 'sumRealFSharp1', sumRealFSharp(1.50055,...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumrealfsharp(unknown, numeric) does not exist
+LINE 2: SELECT 'f#-float4-null', 'sumRealFSharp2', sumRealFSharp(NUL...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returndoublefsharp() does not exist
+LINE 2: SELECT 'f#-float8', 'returnDoubleFSharp', returnDoubleFSharp...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function sumdoublefsharp(numeric, numeric) does not exist
+LINE 2: SELECT 'f#-float8', 'sumDoubleFSharp1', sumDoubleFSharp(10.5...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumdoublefsharp(unknown, unknown) does not exist
+LINE 2: SELECT 'f#-float8-null', 'sumDoubleFSharp2', sumDoubleFSharp...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnrealarrayfsharp(real[]) does not exist
+LINE 2: ...f#-float4-null-1array', 'returnRealArrayFSharp1', returnReal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnrealarrayfsharp(real[]) does not exist
+LINE 2: ...null-2array-arraynull', 'returnRealArrayFSharp2', returnReal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnrealarrayfsharp(real[]) does not exist
+LINE 2: ...null-3array-arraynull', 'returnRealArrayFSharp3', returnReal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createrealmultidimensionalarrayfsharp() does not exist
+LINE 2: ...aynull', 'CreateRealMultidimensionalArrayFSharp', CreateReal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearrayrealindexfsharp(real[], numeric) does not exist
+LINE 2: ...oat4-null-1array', 'updateArrayRealIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayrealindexfsharp(real[], numeric) does not exist
+LINE 2: ...oat4-null-2array', 'updateArrayRealIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayrealindexfsharp(real[], numeric) does not exist
+LINE 2: ...oat4-null-3array', 'updateArrayRealIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returndoublearrayfsharp(double precision[]) does not exist
+LINE 2: ...-float8-null-1array', 'returnDoubleArrayFSharp1', returnDoub...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returndoublearrayfsharp(double precision[]) does not exist
+LINE 2: ...ll-2array-arraynull', 'returnDoubleArrayFSharp2', returnDoub...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createdoublemultidimensionalarrayfsharp() does not exist
+LINE 2: ...null', 'CreateDoubleMultidimensionalArrayFSharp', CreateDoub...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function make_pi_n_fs(integer) does not exist
+LINE 2: SELECT 'f#-float8-make-pi', 'make_pi_lt', make_pi_n_fs(1000)...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function make_pi_n_fs(integer) does not exist
+LINE 2: SELECT 'f#-float8-make-pi', 'make_pi_gt', make_pi_n_fs(1000)...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraydoubleindexfsharp(double precision[], numeric) does not exist
+LINE 2: ...t8-null-1array', 'updateArrayDoubleIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydoubleindexfsharp(double precision[], numeric) does not exist
+LINE 2: ...t8-null-2array', 'updateArrayDoubleIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydoubleindexfsharp(double precision[], numeric) does not exist
+LINE 2: ...t8-null-2array', 'updateArrayDoubleIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

@@ -1,0 +1,23 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  procedure printsumprocedurefsharp(integer, integer) does not exist
+LINE 1: CALL printSumProcedureFSharp(10, 25);
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  procedure printsumprocedurefsharp(integer, integer) does not exist
+LINE 1: CALL printSumProcedureFSharp(1450, 275);
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  procedure sayhellofsharp(text) does not exist
+LINE 1: CALL sayHelloFSharp('Mikael'::TEXT);
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  procedure sayhellofsharp(text) does not exist
+LINE 1: CALL sayHelloFSharp('Rosicley'::TEXT);
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  procedure sayhellofsharp(text) does not exist
+LINE 1: CALL sayHelloFSharp('Todd'::TEXT);
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.

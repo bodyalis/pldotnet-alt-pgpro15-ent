@@ -1,0 +1,72 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifybitfsharp(bit) does not exist
+LINE 2: SELECT 'f#-bit', 'modifybitfsharp1', modifybitfsharp('10101'...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifybitfsharp(bit) does not exist
+LINE 2: SELECT 'f#-bit-null', 'modifybitfsharp2', modifybitfsharp(NU...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyvarbitfsharp(bit varying) does not exist
+LINE 2: SELECT 'f#-varbit', 'modifyvarbitfsharp1', modifyvarbitfshar...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyvarbitfsharp(bit varying) does not exist
+LINE 2: SELECT 'f#-varbit-null', 'modifyvarbitfsharp2', modifyvarbit...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function concatenatevarbitfsharp(bit varying, bit varying) does not exist
+LINE 2: SELECT 'f#-varbit', 'concatenatevarbitfsharp1', concatenatev...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatevarbitfsharp(bit, bit varying) does not exist
+LINE 2: SELECT 'f#-varbit', 'concatenatevarbitfsharp2', concatenatev...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatebitarrayindexfsharp(bit[], bit) does not exist
+LINE 2: ...#-bit-null-1array', 'updateBitArrayIndexFSharp1', updateBitA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebitarrayindexfsharp(bit[], bit) does not exist
+LINE 2: ...#-bit-null-2array', 'updateBitArrayIndexFSharp2', updateBitA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebitarrayindexfsharp(bit[], bit) does not exist
+LINE 2: ...#-bit-null-3array', 'updateBitArrayIndexFSharp3', updateBitA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebitarrayindexfsharp(bit[], bit) does not exist
+LINE 2: ...-2array-arraynull', 'updateBitArrayIndexFSharp4', updateBitA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function togglefirstbitsfsharp(bit[]) does not exist
+LINE 2: ...T 'f#-bit-null-1array', 'ToggleFirstBitsFSharp1', ToggleFirs...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatevarbitarrayindexfsharp(bit varying[], bit varying) does not exist
+LINE 2: ...it-null-1array', 'updateVarbitArrayIndexFSharp1', updateVarb...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatevarbitarrayindexfsharp(bit varying[], bit varying) does not exist
+LINE 2: ...it-null-2array', 'updateVarbitArrayIndexFSharp2', updateVarb...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatevarbitarrayindexfsharp(bit varying[], bit varying) does not exist
+LINE 2: ...it-null-3array', 'updateVarbitArrayIndexFSharp3', updateVarb...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatevarbitarrayindexfsharp(bit varying[], bit varying) does not exist
+LINE 2: ...rray-arraynull', 'updateVarbitArrayIndexFSharp4', updateVarb...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function togglefirstvarbitsfsharp(bit varying[]) does not exist
+LINE 2: ...varbit-null-1array', 'ToggleFirstVarbitsFSharp1', ToggleFirs...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

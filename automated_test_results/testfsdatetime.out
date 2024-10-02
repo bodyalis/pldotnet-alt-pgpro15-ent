@@ -1,0 +1,243 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyinputdatefsharp(date) does not exist
+LINE 2: SELECT 'f#-date', 'modifyInputDateFSharp1', modifyInputDateF...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyinputdatefsharp(date) does not exist
+LINE 2: SELECT 'f#-date-null', 'modifyInputDateFSharp2', modifyInput...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function addminutesfsharp(time without time zone, integer) does not exist
+LINE 2: SELECT 'f#-time', 'addMinutesFSharp1', addMinutesFSharp(TIME...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutesfsharp(time without time zone, integer) does not exist
+LINE 2: SELECT 'f#-time-null', 'addMinutesFSharp2', addMinutesFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutesfsharp(time without time zone, unknown) does not exist
+LINE 2: SELECT 'f#-time-null', 'addMinutesFSharp1', addMinutesFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutesfsharp(time without time zone, unknown) does not exist
+LINE 2: SELECT 'f#-time-null', 'addMinutesFSharp2', addMinutesFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function addhoursfsharp(time with time zone, numeric) does not exist
+LINE 2: SELECT 'f#-timetz', 'addHoursFSharp1', addHoursFSharp(TIMETZ...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addhoursfsharp(time with time zone, numeric) does not exist
+LINE 2: SELECT 'f#-timetz-null', 'addHoursFSharp2', addHoursFSharp(N...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function setnewdatefsharp(timestamp without time zone, date) does not exist
+LINE 2: SELECT 'f#-timestamp', 'setNewDateFSharp1', setNewDateFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function setnewdatefsharp(timestamp without time zone, date) does not exist
+LINE 2: SELECT 'f#-timestamp-null', 'setNewDateFSharp2', setNewDateF...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function adddaysfsharp(timestamp with time zone, integer) does not exist
+LINE 2: SELECT 'f#-timestamptz', 'addDaysFSharp1', addDaysFSharp(TIM...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function adddaysfsharp(timestamp with time zone, integer) does not exist
+LINE 2: SELECT 'f#-timestamptz-null', 'addDaysFSharp2', addDaysFShar...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyintervalfsharp(interval, integer, integer) does not exist
+LINE 2: SELECT 'f#-interval', 'modifyIntervalFSharp1', modifyInterva...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyintervalfsharp(interval, integer, integer) does not exist
+LINE 2: ...LECT 'f#-interval-null', 'modifyIntervalFSharp2', modifyInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraydateindexfsharp(date[], date) does not exist
+LINE 2: ... 'f#-date-1array', 'updateArrayDateIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydateindexfsharp(date[], date) does not exist
+LINE 2: ... 'f#-date-2array', 'updateArrayDateIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydateindexfsharp(date[], date) does not exist
+LINE 2: ... 'f#-date-3array', 'updateArrayDateIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydateindexfsharp(date[], date) does not exist
+LINE 2: ...1array-arraynull', 'updateArrayDateIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydateindexfsharp(date[], date) does not exist
+LINE 2: ...2array-arraynull', 'updateArrayDateIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydateindexfsharp(date[], date) does not exist
+LINE 2: ...3array-arraynull', 'updateArrayDateIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createdatemultidimensionalarrayfsharp() does not exist
+LINE 2: ...aynull', 'CreateDateMultidimensionalArrayFSharp', CreateDate...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraytimeindexfsharp(time without time zone[], time without time zone) does not exist
+LINE 2: ... 'f#-time-1array', 'updateArrayTimeIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimeindexfsharp(time without time zone[], time without time zone) does not exist
+LINE 2: ... 'f#-time-2array', 'updateArrayTimeIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimeindexfsharp(time without time zone[], time without time zone) does not exist
+LINE 2: ... 'f#-time-3array', 'updateArrayTimeIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimeindexfsharp(time without time zone[], time without time zone) does not exist
+LINE 2: ...1array-arraynull', 'updateArrayTimeIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimeindexfsharp(time without time zone[], time without time zone) does not exist
+LINE 2: ...2array-arraynull', 'updateArrayTimeIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimeindexfsharp(time without time zone[], time without time zone) does not exist
+LINE 2: ...3array-arraynull', 'updateArrayTimeIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createtimemultidimensionalarrayfsharp() does not exist
+LINE 2: ...3array', 'CreateTimeMultidimensionalArrayFSharp', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraytimetzindexfsharp(time with time zone[], time with time zone) does not exist
+LINE 2: ...-timetz-1array', 'updateArrayTimetzIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimetzindexfsharp(time with time zone[], time with time zone) does not exist
+LINE 2: ...-timetz-2array', 'updateArrayTimetzIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimetzindexfsharp(time with time zone[], time with time zone) does not exist
+LINE 2: ...-timetz-3array', 'updateArrayTimetzIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimetzindexfsharp(time with time zone[], time with time zone) does not exist
+LINE 2: ...rray-arraynull', 'updateArrayTimetzIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimetzindexfsharp(time with time zone[], time with time zone) does not exist
+LINE 2: ...rray-arraynull', 'updateArrayTimetzIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimetzindexfsharp(time with time zone[], time with time zone) does not exist
+LINE 2: ...rray-arraynull', 'updateArrayTimetzIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createtimetzmultidimensionalarrayfsharp() does not exist
+LINE 2: ...rray', 'CreateTimetzMultidimensionalArrayFSharp', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraytimestampindexfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...tamp-1array', 'updateArrayTimestampIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestampindexfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...tamp-2array', 'updateArrayTimestampIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestampindexfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...tamp-3array', 'updateArrayTimestampIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestampindexfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...y-arraynull', 'updateArrayTimestampIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestampindexfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...y-arraynull', 'updateArrayTimestampIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestampindexfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...y-arraynull', 'updateArrayTimestampIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createtimestampmultidimensionalarrayfsharp() does not exist
+LINE 2: ...y', 'CreateTimestampMultidimensionalArrayFSharp', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraytimestamptzindexfsharp(timestamp with time zone[], timestamp with time zone) does not exist
+LINE 2: ...tz-1array', 'updateArrayTimestamptzIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestamptzindexfsharp(timestamp with time zone[], timestamp with time zone) does not exist
+LINE 2: ...tz-2array', 'updateArrayTimestamptzIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestamptzindexfsharp(timestamp with time zone[], timestamp with time zone) does not exist
+LINE 2: ...tz-3array', 'updateArrayTimestamptzIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestamptzindexfsharp(timestamp with time zone[], timestamp with time zone) does not exist
+LINE 2: ...arraynull', 'updateArrayTimestamptzIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestamptzindexfsharp(timestamp with time zone[], timestamp with time zone) does not exist
+LINE 2: ...arraynull', 'updateArrayTimestamptzIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraytimestamptzindexfsharp(timestamp with time zone[], timestamp with time zone) does not exist
+LINE 2: ...arraynull', 'updateArrayTimestamptzIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createtimestamptzmultidimensionalarrayfsharp() does not exist
+LINE 2: ..., 'CreateTimestamptzMultidimensionalArrayFSharp', CreateTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearrayintervalindexfsharp(interval[], interval) does not exist
+LINE 2: ...erval-1array', 'updateArrayIntervalIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintervalindexfsharp(interval[], interval) does not exist
+LINE 2: ...erval-2array', 'updateArrayIntervalIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintervalindexfsharp(interval[], interval) does not exist
+LINE 2: ...erval-3array', 'updateArrayIntervalIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintervalindexfsharp(interval[], interval) does not exist
+LINE 2: ...ay-arraynull', 'updateArrayIntervalIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintervalindexfsharp(interval[], interval) does not exist
+LINE 2: ...ay-arraynull', 'updateArrayIntervalIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintervalindexfsharp(interval[], interval) does not exist
+LINE 2: ...ay-arraynull', 'updateArrayIntervalIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createintervalmultidimensionalarrayfsharp() does not exist
+LINE 2: ...ay', 'CreateIntervalMultidimensionalArrayFSharp', CreateInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

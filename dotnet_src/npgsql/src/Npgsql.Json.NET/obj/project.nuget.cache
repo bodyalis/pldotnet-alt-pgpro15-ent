@@ -1,0 +1,23 @@
+{
+  "version": 2,
+  "dgSpecHash": "rZ02Y8ulibF0qdc8XZe7CJAEVs2h3a4f03tzR/qFWHYIG4DRzGBQyafNxVqtXuXIcX+Fa9vpwqQ4O0wmzEhVxA==",
+  "success": false,
+  "projectFilePath": "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.Json.NET/Npgsql.Json.NET.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/microsoft.codeanalysis.publicapianalyzers/3.3.3/microsoft.codeanalysis.publicapianalyzers.3.3.3.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/root/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/root/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Npgsql is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project Npgsql supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

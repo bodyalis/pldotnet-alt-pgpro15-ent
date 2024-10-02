@@ -1,0 +1,202 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnmacaddressfsharp(macaddr) does not exist
+LINE 2: SELECT 'f#-macaddr', 'returnMacAddressFSharp', returnMacAddr...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function comparemacaddressfsharp(macaddr, macaddr) does not exist
+LINE 2: SELECT 'f#-macaddr', 'compareMacAddressFSharp1', compareMacA...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddressfsharp(macaddr, macaddr) does not exist
+LINE 2: ...CT 'f#-macaddr-null', 'compareMacAddressFSharp2', compareMac...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddressfsharp(macaddr, macaddr) does not exist
+LINE 2: ...CT 'f#-macaddr-null', 'compareMacAddressFSharp2', compareMac...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddressfsharp(macaddr, macaddr) does not exist
+LINE 2: ...CT 'f#-macaddr-null', 'compareMacAddressFSharp2', compareMac...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function addonemacaddress8fsharp(macaddr8) does not exist
+LINE 2: SELECT 'f#-macaddr8', 'addOneMacAddress8FSharp', addOneMacAd...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function comparemacaddress8fsharp(macaddr8, macaddr8) does not exist
+LINE 2: ...ELECT 'f#-macaddr8', 'compareMacAddress8FSharp1', compareMac...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddress8fsharp(macaddr8, macaddr8) does not exist
+LINE 2: ...ELECT 'f#-macaddr8', 'compareMacAddress8FSharp2', compareMac...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddress8fsharp(macaddr8, macaddr8) does not exist
+LINE 2: ... 'f#-macaddr8-null', 'compareMacAddress8FSharp3', compareMac...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddress8fsharp(macaddr8, macaddr8) does not exist
+LINE 2: ... 'f#-macaddr8-null', 'compareMacAddress8FSharp4', compareMac...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function comparemacaddress8fsharp(macaddr8, macaddr8) does not exist
+LINE 2: ... 'f#-macaddr8-null', 'compareMacAddress8FSharp5', compareMac...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifynetmaskfsharp(inet, integer) does not exist
+LINE 2: SELECT 'f#-inet', 'modifyNetMaskFSharp', modifyNetMaskFSharp...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyipfsharp(inet, integer) does not exist
+LINE 2: SELECT 'f#-inet', 'modifyIPFSharp1', modifyIPFSharp(INET '20...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyipfsharp(inet, integer) does not exist
+LINE 2: SELECT 'f#-inet-null', 'modifyIPFSharp2', modifyIPFSharp(NUL...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyip_cidrfsharp(cidr, integer, integer) does not exist
+LINE 2: SELECT 'f#-cidr', 'modifyIP_CIDRFSharp', modifyIP_CIDRFSharp...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifynetmask_cidr(cidr, integer) does not exist
+LINE 2: SELECT 'f#-cidr', 'modifyNetmask_CIDR1', modifyNetmask_CIDR(...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifynetmask_cidr(cidr, integer) does not exist
+LINE 2: SELECT 'f#-cidr-null', 'modifyNetmask_CIDR2', modifyNetmask_...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnmacaddressarrayfsharp(macaddr[]) does not exist
+LINE 2: ...array-arraynull', 'returnMacAddressArrayFSharp1', returnMacA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraymacaddressindexfsharp(macaddr[], macaddr) does not exist
+LINE 2: ...ddr-1array', 'updateArrayMacAddressIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddressindexfsharp(macaddr[], macaddr) does not exist
+LINE 2: ...ddr-2array', 'updateArrayMacAddressIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddressindexfsharp(macaddr[], macaddr) does not exist
+LINE 2: ...ddr-3array', 'updateArrayMacAddressIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddressindexfsharp(macaddr[], macaddr) does not exist
+LINE 2: ...-arraynull', 'updateArrayMacAddressIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddressindexfsharp(macaddr[], macaddr) does not exist
+LINE 2: ...-arraynull', 'updateArrayMacAddressIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddressindexfsharp(macaddr[], macaddr) does not exist
+LINE 2: ...-arraynull', 'updateArrayMacAddressIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createmacaddressmultidimensionalarrayfsharp() does not exist
+LINE 2: ...', 'CreateMacAddressMultidimensionalArrayFSharp', CreateMacA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraymacaddress8indexfsharp(macaddr8[], macaddr8) does not exist
+LINE 2: ...r8-1array', 'updateArrayMacAddress8IndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddress8indexfsharp(macaddr8[], macaddr8) does not exist
+LINE 2: ...arraynull', 'updateArrayMacAddress8IndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddress8indexfsharp(macaddr8[], macaddr8) does not exist
+LINE 2: ...r8-2array', 'updateArrayMacAddress8IndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddress8indexfsharp(macaddr8[], macaddr8) does not exist
+LINE 2: ...arraynull', 'updateArrayMacAddress8IndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddress8indexfsharp(macaddr8[], macaddr8) does not exist
+LINE 2: ...r8-3array', 'updateArrayMacAddress8IndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraymacaddress8indexfsharp(macaddr8[], macaddr8) does not exist
+LINE 2: ...arraynull', 'updateArrayMacAddress8IndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createmacaddress8multidimensionalarrayfsharp(macaddr8) does not exist
+LINE 2: ..., 'CreateMacAddress8MultidimensionalArrayFSharp', CreateMacA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraynetmaskindexfsharp(inet[], inet) does not exist
+LINE 2: ...#-inet-1array', 'updateArrayNetMaskIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraynetmaskindexfsharp(inet[], inet) does not exist
+LINE 2: ...#-inet-2array', 'updateArrayNetMaskIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraynetmaskindexfsharp(inet[], inet) does not exist
+LINE 2: ...#-inet-2array', 'updateArrayNetMaskIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraynetmaskindexfsharp(inet[], inet) does not exist
+LINE 2: ...ray-arraynull', 'updateArrayNetMaskIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraynetmaskindexfsharp(inet[], inet) does not exist
+LINE 2: ...ray-arraynull', 'updateArrayNetMaskIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraynetmaskindexfsharp(inet[], inet) does not exist
+LINE 2: ...ray-arraynull', 'updateArrayNetMaskIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createinetmultidimensionalarrayfsharp() does not exist
+LINE 2: ...3array', 'CreateInetMultidimensionalArrayFSharp', CreateInet...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatearraycidrindexfsharp(cidr[], cidr) does not exist
+LINE 2: ... 'f#-cidr-1array', 'updateArrayCIDRIndexFSharp1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraycidrindexfsharp(cidr[], cidr) does not exist
+LINE 2: ... 'f#-cidr-2array', 'updateArrayCIDRIndexFSharp2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraycidrindexfsharp(cidr[], cidr) does not exist
+LINE 2: ... 'f#-cidr-2array', 'updateArrayCIDRIndexFSharp3', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraycidrindexfsharp(cidr[], cidr) does not exist
+LINE 2: ...1array-arraynull', 'updateArrayCIDRIndexFSharp4', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraycidrindexfsharp(cidr[], cidr) does not exist
+LINE 2: ...2array-arraynull', 'updateArrayCIDRIndexFSharp5', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraycidrindexfsharp(cidr[], cidr) does not exist
+LINE 2: ...3array-arraynull', 'updateArrayCIDRIndexFSharp6', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createcidrmultidimensionalarrayfsharp() does not exist
+LINE 2: ...3array', 'CreateCIDRMultidimensionalArrayFSharp', CreateCIDR...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

@@ -1,0 +1,41 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  language "plfsharp" does not exist
+ERROR:  function numbers_fsharp() does not exist
+LINE 1: WITH data AS (SELECT numbers_fsharp() AS num LIMIT 100)
+                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function numbers_fsharp(integer) does not exist
+LINE 1: WITH data AS (SELECT numbers_fsharp(100) AS num)
+                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function make_pi() does not exist
+LINE 1: select make_pi() LIMIT 10;
+               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function numbers() does not exist
+LINE 1: WITH data AS (SELECT numbers() AS num, make_pi_fsharp() AS p...
+                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function numbers() does not exist
+LINE 1: WITH data AS (SELECT numbers() AS num, make_pi_fsharp() AS p...
+                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+CREATE FUNCTION
+ERROR:  language "plfsharp" does not exist
+ERROR:  function string_to_integer_array_fsharp(text[]) does not exist
+LINE 6:         string_to_integer_array_fsharp(input) AS col1,
+                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+NOTICE:  extension "pgcrypto" already exists, skipping
+CREATE EXTENSION
+ERROR:  language "plfsharp" does not exist
+ERROR:  function ten_items_fsharp(unknown) does not exist
+LINE 1: SELECT 'c#-srf-comparison', 'comparison-1', ten_items_fsharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function ten_items_fsharp(unknown) does not exist
+LINE 3:     FROM (SELECT ten_items_fsharp('apples')) AS t
+                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

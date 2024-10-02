@@ -1,0 +1,57 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function returnjsonfsharp(json) does not exist
+LINE 2: SELECT 'f#-json', 'returnJsonFSharp1', returnJsonFSharp('{"a...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnjsonfsharp(json) does not exist
+LINE 2: SELECT 'f#-json', 'returnJsonFSharp2', returnJsonFSharp('{"a...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnjsonfsharp(json) does not exist
+LINE 2: SELECT 'f#-json', 'returnJsonFSharp3', returnJsonFSharp('{"S...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnjsonfsharp(json) does not exist
+LINE 2: SELECT 'f#-json-null', 'returnJsonFSharp4', returnJsonFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifyjsonfsharp(json, text, text) does not exist
+LINE 2: SELECT 'f#-json', 'modifyJsonFSharp1', modifyJsonFSharp('{"a...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyjsonfsharp(json, text, text) does not exist
+LINE 2: SELECT 'f#-json-null', 'modifyJsonFSharp2', modifyJsonFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function updatejsonarrayindexfsharp(json[], json) does not exist
+LINE 2: ...json-null-1array', 'updateJsonArrayIndexFSharp1', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatejsonarrayindexfsharp(json[], json) does not exist
+LINE 2: ...json-null-2array', 'updateJsonArrayIndexFSharp2', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatejsonarrayindexfsharp(json[], json) does not exist
+LINE 2: ...json-null-3array', 'updateJsonArrayIndexFSharp3', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatejsonarrayindexfsharp(json[], json) does not exist
+LINE 2: ...1array-arraynull', 'updateJsonArrayIndexFSharp4', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatejsonarrayindexfsharp(json[], json) does not exist
+LINE 2: ...2array-arraynull', 'updateJsonArrayIndexFSharp5', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatejsonarrayindexfsharp(json[], json) does not exist
+LINE 2: ...3array-arraynull', 'updateJsonArrayIndexFSharp6', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function getjsonmultidimensionarrayfsharp() does not exist
+LINE 2: ...-arraynull', 'GetJsonMultidimensionArrayFSharp1', GetJsonMul...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

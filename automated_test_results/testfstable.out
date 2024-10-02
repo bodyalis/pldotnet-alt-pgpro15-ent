@@ -1,0 +1,45 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function table_type_test_fsharp() does not exist
+LINE 1: WITH data AS (SELECT * FROM table_type_test_fsharp())
+                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function table_arg_test_fsharp(integer) does not exist
+LINE 1: SELECT * FROM table_arg_test_fsharp(10);
+                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function table_arg_test_fsharp(integer) does not exist
+LINE 3:     FROM table_arg_test_fsharp(10);
+                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function table_arg_test_fsharp(integer) does not exist
+LINE 3:     FROM table_arg_test_fsharp(NULL::int);
+                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function table_arg_test_fsharp(integer) does not exist
+LINE 3:     FROM table_arg_test_fsharp(NULL::int);
+                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function table_array_test_fsharp(integer) does not exist
+LINE 3:     FROM table_array_test_fsharp(5);
+                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function table_array_test_fsharp(integer) does not exist
+LINE 3: FROM table_array_test_fsharp(5), UNNEST(id) AS val;
+             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function table_array_test_fsharp(integer) does not exist
+LINE 3: FROM table_array_test_fsharp(5), UNNEST(id) AS val
+             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function table_array_test_fsharp(integer) does not exist
+LINE 3: FROM table_array_test_fsharp(5), UNNEST(id) AS val
+             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function table_empty_test_fsharp(integer) does not exist
+LINE 3: FROM table_empty_test_fsharp(5);
+             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

@@ -1,0 +1,75 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifybit(bit) does not exist
+LINE 2: SELECT 'c#-bit', 'modifybit1', modifybit('10101'::BIT(10)) =...
+                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifybit(bit) does not exist
+LINE 2: SELECT 'c#-bit-null', 'modifybit2', modifybit(NULL::BIT(10))...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifyvarbit(bit varying) does not exist
+LINE 2: SELECT 'c#-varbit', 'modifyvarbit1', modifyvarbit('100111000...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyvarbit(bit varying) does not exist
+LINE 2: SELECT 'c#-varbit-null', 'modifyvarbit2', modifyvarbit(NULL:...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function concatenatevarbit(bit varying, bit varying) does not exist
+LINE 2: SELECT 'c#-varbit', 'concatenatevarbit1', concatenatevarbit(...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatevarbit(bit, bit varying) does not exist
+LINE 2: SELECT 'c#-varbit', 'concatenatevarbit2', concatenatevarbit(...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatebitarrayindex(bit[], bit, integer[]) does not exist
+LINE 2: ...ECT 'c#-bit-null-1array', 'updateBitArrayIndex1', updateBitA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebitarrayindex(bit[], bit, integer[]) does not exist
+LINE 2: ...ECT 'c#-bit-null-2array', 'updateBitArrayIndex2', updateBitA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebitarrayindex(bit[], bit, integer[]) does not exist
+LINE 2: ...t-null-2array-arraynull', 'updateBitArrayIndex3', updateBitA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function togglefirstbits(bit[]) does not exist
+LINE 2: SELECT 'c#-bit-null-1array', 'ToggleFirstBits1', ToggleFirst...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createbitmultidimensionalarray() does not exist
+LINE 2: ...ay-arraynull', 'CreateBitMultidimensionalArray1', CreateBitM...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatevarbitarrayindex(bit varying[], bit varying, integer[]) does not exist
+LINE 2: ...#-varbit-null-1array', 'updateVarbitArrayIndex1', updateVarb...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatevarbitarrayindex(bit varying[], bit varying, integer[]) does not exist
+LINE 2: ...#-varbit-null-2array', 'updateVarbitArrayIndex2', updateVarb...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatevarbitarrayindex(bit varying[], bit varying, integer[]) does not exist
+LINE 2: ...ull-2array-arraynull', 'updateVarbitArrayIndex3', updateVarb...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function togglefirstvarbits(bit varying[]) does not exist
+LINE 2: ...T 'c#-varbit-null-1array', 'ToggleFirstVarbits1', ToggleFirs...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createvarbitmultidimensionalarray() does not exist
+LINE 2: ...arraynull', 'CreateVarbitMultidimensionalArray1', CreateVarb...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

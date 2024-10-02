@@ -1,0 +1,243 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function middlepoint(point, point) does not exist
+LINE 2: SELECT 'c#-point', 'middlePoint1',  middlePoint(POINT(10.0,2...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function middlepoint(point, point) does not exist
+LINE 2: SELECT 'c#-point-null', 'middlePoint2',  middlePoint(NULL::P...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function distancebetweenpoints(point, point) does not exist
+LINE 2: SELECT 'c#-point', 'distanceBetweenPoints',  distanceBetween...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function checkpoints(point, point) does not exist
+LINE 2: SELECT 'c#-point', 'checkPoints1',  checkPoints(POINT(2.5557...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function checkpoints(point, point) does not exist
+LINE 2: SELECT 'c#-point', 'checkPoints2',  checkPoints(POINT(2.5557...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createline(numeric, numeric, numeric) does not exist
+LINE 2: SELECT 'c#-line', 'createLine', createLine(1.50,-2.750,3.25)...
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifycoefficients(line) does not exist
+LINE 2: SELECT 'c#-line', 'modifyCoefficients1', modifyCoefficients(...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifycoefficients(line) does not exist
+LINE 2: SELECT 'c#-line-null', 'modifyCoefficients2', modifyCoeffici...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function getminimumdistance(line, point) does not exist
+LINE 2: SELECT 'c#-line', 'getMinimumDistance', getMinimumDistance(L...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createlinesegment(point, point) does not exist
+LINE 2: SELECT 'c#-lseg', 'createLineSegment', createLineSegment(POI...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function getreverselinesegment(lseg) does not exist
+LINE 2: SELECT 'c#-lseg', 'getReverseLineSegment1', getReverseLineSe...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function getreverselinesegment(lseg) does not exist
+LINE 2: SELECT 'c#-lseg-null', 'getReverseLineSegment2', getReverseL...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function testbox(box) does not exist
+LINE 2: SELECT 'c#-box', 'testBox', testBox(BOX '(0.025988, 1.021653...
+                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createbox(point, point) does not exist
+LINE 2: SELECT 'c#-box', 'createBox', createBox(POINT '(2.052787, 3....
+                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnwidth(point, point) does not exist
+LINE 2: SELECT 'c#-box', 'returnWidth', returnWidth(POINT '(0.025988...
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasebox(box) does not exist
+LINE 2: SELECT 'c#-box-null', 'increaseBox1', increaseBox(NULL::BOX)...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnpath(path) does not exist
+LINE 2: SELECT 'c#-path', 'returnPath - open', returnPath(PATH '[(1....
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnpath(path) does not exist
+LINE 2: SELECT 'c#-path', 'returnPath - close', returnPath(PATH '((1...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasepath(path) does not exist
+LINE 2: SELECT 'c#-path-null', 'increasePath1', increasePath(NULL::P...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function addpointtopolygon(polygon, point) does not exist
+LINE 2: SELECT 'c#-polygon', 'addPointToPolygon1', addPointToPolygon...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addpointtopolygon(polygon, point) does not exist
+LINE 2: SELECT 'c#-polygon-null', 'addPointToPolygon2', addPointToPo...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returncircle(circle) does not exist
+LINE 2: SELECT 'c#-circle', 'returnCircle', returnCircle(CIRCLE '2.5...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasecircle(circle) does not exist
+LINE 2: SELECT 'c#-circle-null', 'increaseCircle1', increaseCircle(N...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraypointindex(point[], point, integer[]) does not exist
+LINE 2: ...oint-null-1array', 'updateArrayPointIndex1', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraypointindex(point[], point, integer[]) does not exist
+LINE 2: ...2array-arraynull', 'updateArrayPointIndex2', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasepoints(point[]) does not exist
+LINE 2: ...T 'c#-point-null-1array', 'IncreasePoints1', CAST(IncreasePo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createpointmultidimensionalarray() does not exist
+LINE 2: ...ynull', 'CreatePointMultidimensionalArray1', CAST(CreatePoin...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraylineindex(line[], line, integer[]) does not exist
+LINE 2: ...T 'c#-line-1array', 'updateArrayLineIndex1', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraylineindex(line[], line, integer[]) does not exist
+LINE 2: ...-2array-arraynull', 'updateArrayLineIndex2', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaselines(line[]) does not exist
+LINE 2: SELECT 'c#-line-1array', 'IncreaseLines1', CAST(IncreaseLine...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createlinemultidimensionalarray() does not exist
+LINE 2: ...3array', 'CreateLineMultidimensionalArray1', CAST(CreateLine...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraylsegindex(lseg[], lseg, integer[]) does not exist
+LINE 2: ...-lseg-null-1array', 'updateArrayLSEGIndex1', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraylsegindex(lseg[], lseg, integer[]) does not exist
+LINE 2: ...-2array-arraynull', 'updateArrayLSEGIndex2', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaselsegs(lseg[]) does not exist
+LINE 2: ...ECT 'c#-lseg-null-1array', 'IncreaseLSEGs1', CAST(IncreaseLS...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createlsegmultidimensionalarray() does not exist
+LINE 2: ...aynull', 'CreateLSEGMultidimensionalArray1', CAST(CreateLSEG...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearrayboxindex(box[], box, integer[]) does not exist
+LINE 2: ...c#-box-null-1array', 'updateArrayBoxIndex1', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayboxindex(box[], box, integer[]) does not exist
+LINE 2: ...l-2array-arraynull', 'updateArrayBoxIndex2', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseboxs(box[]) does not exist
+LINE 2: ...ELECT 'c#-box-null-1array', 'IncreaseBoxs1', CAST(IncreaseBo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createboxmultidimensionalarray() does not exist
+LINE 2: ...raynull', 'CreateBoxMultidimensionalArray1', CAST(CreateBoxM...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraypathindex(path[], path, integer[]) does not exist
+LINE 2: ...-path-null-1array', 'updateArrayPathIndex1', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraypathindex(path[], path, integer[]) does not exist
+LINE 2: ...-2array-arraynull', 'updateArrayPathIndex2', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasepaths(path[]) does not exist
+LINE 2: ...ECT 'c#-path-null-1array', 'IncreasePaths1', CAST(IncreasePa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createpathmultidimensionalarray() does not exist
+LINE 2: ...aynull', 'CreatePathMultidimensionalArray1', CAST(CreatePath...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraypolygonindex(polygon[], polygon, integer[]) does not exist
+LINE 2: ...on-null-1array', 'updateArrayPolygonIndex1', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraypolygonindex(polygon[], polygon, integer[]) does not exist
+LINE 2: ...rray-arraynull', 'updateArrayPolygonIndex2', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasepolygons(polygon[]) does not exist
+LINE 2: ...#-polygon-null-1array', 'IncreasePolygons1', CAST(IncreasePo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createpolygonmultidimensionalarray() does not exist
+LINE 2: ...ull', 'CreatePolygonMultidimensionalArray1', CAST(CreatePoly...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraycircleindex(circle[], circle, integer[]) does not exist
+LINE 2: ...cle-null-1array', 'updateArrayCircleIndex1', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraycircleindex(circle[], circle, integer[]) does not exist
+LINE 2: ...array-arraynull', 'updateArrayCircleIndex2', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasecircles(circle[]) does not exist
+LINE 2: ...'c#-circle-null-1array', 'IncreaseCircles1', CAST(IncreaseCi...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createcirclemultidimensionalarray() does not exist
+LINE 2: ...null', 'CreateCircleMultidimensionalArray1', CAST(CreateCirc...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

@@ -1,0 +1,85 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnbool() does not exist
+LINE 2: SELECT 'c#-bool', 'returnBool', returnBool() is false;
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function booleanand(boolean, boolean) does not exist
+LINE 2: SELECT 'c#-bool', 'BooleanAnd1', BooleanAnd(true, true) is t...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function booleanand(boolean, boolean) does not exist
+LINE 2: SELECT 'c#-bool-null', 'BooleanAnd2', BooleanAnd(NULL::BOOLE...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function booleanor(boolean, boolean) does not exist
+LINE 2: SELECT 'c#-bool', 'BooleanOr1', BooleanOr(false, false) is f...
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function booleanor(boolean, boolean) does not exist
+LINE 2: SELECT 'c#-bool-null', 'BooleanOr2', BooleanOr(true, NULL::B...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function booleanxor(boolean, boolean) does not exist
+LINE 2: SELECT 'c#-bool', 'BooleanXor1', BooleanXor(false, false) is...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function booleanxor(boolean, boolean) does not exist
+LINE 2: SELECT 'c#-bool-null', 'BooleanXor2', BooleanXor(NULL::BOOLE...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnbooleanarray(boolean[]) does not exist
+LINE 2: ...ECT 'c#-bool-null-1array', 'returnBooleanArray1', returnBool...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnbooleanarray(boolean[]) does not exist
+LINE 2: ...ol-null-2array-arraynull', 'returnBooleanArray2', returnBool...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnbooleanarray(boolean[]) does not exist
+LINE 2: ...ol-null-3array-arraynull', 'returnBooleanArray3', returnBool...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function countbool(boolean[], boolean) does not exist
+LINE 2: SELECT 'c#-bool-null-1array', 'countBool1', countBool(ARRAY[...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countbool(boolean[], boolean) does not exist
+LINE 2: SELECT 'c#-bool-null-1array', 'countBool2', countBool(ARRAY[...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countbool(boolean[], boolean) does not exist
+LINE 2: SELECT 'c#-bool-null-2array', 'countBool3', countBool(ARRAY[...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countbool(boolean[], boolean) does not exist
+LINE 2: SELECT 'c#-bool-null-2array', 'countBool4', countBool(ARRAY[...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countbool(boolean[], boolean) does not exist
+LINE 2: SELECT 'c#-bool-null-3array', 'countBool5', countBool(ARRAY[...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function countbool(boolean[], boolean) does not exist
+LINE 2: SELECT 'c#-bool-null-3array', 'countBool6', countBool(ARRAY[...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createbooleanmultidimensionalarray() does not exist
+LINE 2: ...arraynull', 'CreateBooleanMultidimensionalArray', CreateBool...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraybooleanindex(boolean[], boolean, integer[]) does not exist
+LINE 2: ...ECT 'c#-bool-1array', 'updateArrayBooleanIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraybooleanindex(boolean[], boolean, integer[]) does not exist
+LINE 2: ...ECT 'c#-bool-2array', 'updateArrayBooleanIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

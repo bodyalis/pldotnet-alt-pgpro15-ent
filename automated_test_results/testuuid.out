@@ -1,0 +1,71 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnuuid(uuid) does not exist
+LINE 2: SELECT 'c#-uuid', 'returnUUID1', returnUUID('a0eebc99-9c0b-4...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnuuid(uuid) does not exist
+LINE 2: SELECT 'c#-uuid', 'returnUUID2', returnUUID('123e4567-e89b-1...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnuuid(uuid) does not exist
+LINE 2: SELECT 'c#-uuid', 'returnUUID3', returnUUID('87e3006a-604e-1...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnuuid(uuid) does not exist
+LINE 2: SELECT 'c#-uuid', 'returnUUID4', returnUUID('024be913-3bf8-4...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createuuid(text) does not exist
+LINE 2: SELECT 'c#-uuid', 'createUUID1', createUUID('a0eebc99-9c0b-4...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function createuuid(text) does not exist
+LINE 2: SELECT 'c#-uuid', 'createUUID2', createUUID('123e4567-e89b-1...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function createuuid(text) does not exist
+LINE 2: SELECT 'c#-uuid', 'createUUID3', createUUID('87e3006a-604e-1...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function createuuid(text) does not exist
+LINE 2: SELECT 'c#-uuid', 'createUUID4', createUUID('024be913-3bf8-4...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function combineuuids(uuid, uuid) does not exist
+LINE 2: SELECT 'c#-uuid', 'combineUUIDs1', combineUUIDs('a0eebc99-9c...
+                                           ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function combineuuids(uuid, uuid) does not exist
+LINE 2: SELECT 'c#-uuid', 'combineUUIDs2', combineUUIDs('123e4567-e8...
+                                           ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function combineuuids(uuid, uuid) does not exist
+LINE 2: SELECT 'c#-uuid-null', 'combineUUIDs3', combineUUIDs(NULL::U...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updateuuidarrayindex(uuid[], uuid, integer[]) does not exist
+LINE 2: ...T 'c#-uuid-null-1array', 'updateUUIDArrayIndex1', updateUUID...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateuuidarrayindex(uuid[], uuid, integer[]) does not exist
+LINE 2: ...T 'c#-uuid-null-2array', 'updateUUIDArrayIndex2', updateUUID...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updateuuidarrayindex(uuid[], uuid, integer[]) does not exist
+LINE 2: ...-null-2array-arraynull', 'updateUUIDArrayIndex3', updateUUID...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updateuuidarray(uuid[]) does not exist
+LINE 2: SELECT 'c#-uuid-null-1array', 'updateUUIDArray1', updateUUID...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createuuidmultidimensionalarray() does not exist
+LINE 2: ...y-arraynull', 'CreateUUIDMultidimensionalArray1', CreateUUID...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

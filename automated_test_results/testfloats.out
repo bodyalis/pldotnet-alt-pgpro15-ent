@@ -1,0 +1,110 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnreal() does not exist
+LINE 2: SELECT 'c#-float4', 'returnReal', returnReal() = real '1.500...
+                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sumreal(numeric, numeric) does not exist
+LINE 2: SELECT 'c#-float4', 'sumReal1', sumReal(1.50055, 1.50054) = ...
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumreal(unknown, numeric) does not exist
+LINE 2: SELECT 'c#-float4-null', 'sumReal2', sumReal(NULL, 1.50054) ...
+                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returndouble() does not exist
+LINE 2: SELECT 'c#-float8', 'returnDouble', returnDouble() = double ...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sumdouble(numeric, numeric) does not exist
+LINE 2: SELECT 'c#-float8', 'sumDouble1', sumDouble(10.5000000000055...
+                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumdouble(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-float8-null', 'sumDouble2', sumDouble(NULL, NULL)...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function make_pi_n(integer) does not exist
+LINE 2: SELECT 'c#-float8-make-pi', 'make_pi_lt', make_pi_n(1000) < ...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function make_pi_n(integer) does not exist
+LINE 2: SELECT 'c#-float8-make-pi', 'make_pi_gt', make_pi_n(1000) > ...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnrealarray(real[]) does not exist
+LINE 2: ...LECT 'c#-float4-null-1array', 'returnRealArray1', returnReal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnrealarray(real[]) does not exist
+LINE 2: ...loat4-null-2array-arraynull', 'returnRealArray2', returnReal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnrealarray(real[]) does not exist
+LINE 2: ...loat4-null-3array-arraynull', 'returnRealArray3', returnReal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sumrealarray(real[]) does not exist
+LINE 2: SELECT 'c#-float4-null-1array', 'sumRealArray1', sumRealArra...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumrealarray(real[]) does not exist
+LINE 2: ...#-float4-null-2array-arraynull', 'sumRealArray2', sumRealArr...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumrealarray(real[]) does not exist
+LINE 2: ...#-float4-null-3array-arraynull', 'sumRealArray3', sumRealArr...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createrealmultidimensionalarray() does not exist
+LINE 2: ...ay-arraynull', 'CreateRealMultidimensionalArray', CreateReal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearrayrealindex(real[], numeric, integer[]) does not exist
+LINE 2: ...'c#-float4-null-1array', 'updateArrayRealIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayrealindex(real[], numeric, integer[]) does not exist
+LINE 2: ...'c#-float4-null-2array', 'updateArrayRealIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returndoublearray(double precision[]) does not exist
+LINE 2: ...CT 'c#-float8-null-1array', 'returnDoubleArray1', returnDoub...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returndoublearray(double precision[]) does not exist
+LINE 2: ...at8-null-2array-arraynull', 'returnDoubleArray2', returnDoub...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sumdoublearray(double precision[]) does not exist
+LINE 2: ...ELECT 'c#-float8-null-1array', 'sumDoubleArray1', sumDoubleA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumdoublearray(double precision[]) does not exist
+LINE 2: ...ELECT 'c#-float8-null-2array', 'sumDoubleArray2', sumDoubleA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createdoublemultidimensionalarray() does not exist
+LINE 2: ...-arraynull', 'CreateDoubleMultidimensionalArray', CreateDoub...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraydoubleindex(double precision[], numeric, integer[]) does not exist
+LINE 2: ...#-float8-null-1array', 'updateArrayDoubleIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraydoubleindex(double precision[], numeric, integer[]) does not exist
+LINE 2: ...#-float8-null-2array', 'updateArrayDoubleIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

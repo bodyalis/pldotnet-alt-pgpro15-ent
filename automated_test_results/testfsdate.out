@@ -1,0 +1,44 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plfsharp" does not exist
+ERROR:  function createdatefsharp(integer, integer, integer) does not exist
+LINE 2: SELECT 'f#-date', 'createDateFSharp', createDateFSharp(CAST(...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function createdatefsharp(integer, integer, integer) does not exist
+LINE 2: SELECT 'f#-date-null', 'createDateFSharp2', createDateFSharp...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function addminutestimefsharp(time without time zone, integer) does not exist
+LINE 2: SELECT 'f#-date', 'addMinutesTimeFSharp1', addMinutesTimeFSh...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutestimefsharp(time without time zone, integer) does not exist
+LINE 2: SELECT 'f#-date-null', 'addMinutesTimeFSharp2', addMinutesTi...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutestimefsharp(time without time zone, integer) does not exist
+LINE 2: SELECT 'f#-date-null', 'addMinutesTimeFSharp3', addMinutesTi...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function addminutestimefsharp(time without time zone, integer) does not exist
+LINE 2: SELECT 'f#-date-null', 'addMinutesTimeFSharp4', addMinutesTi...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plfsharp" does not exist
+ERROR:  function modifytimestamparrayfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...tamp-1array-null', 'modifyTimestampArrayFSharp1', modifyTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifytimestamparrayfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...tamp-1array-null', 'modifyTimestampArrayFSharp2', modifyTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifytimestamparrayfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...tamp-2array-null', 'modifyTimestampArrayFSharp3', modifyTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifytimestamparrayfsharp(timestamp without time zone[], timestamp without time zone) does not exist
+LINE 2: ...tamp-2array-null', 'modifyTimestampArrayFSharp4', modifyTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

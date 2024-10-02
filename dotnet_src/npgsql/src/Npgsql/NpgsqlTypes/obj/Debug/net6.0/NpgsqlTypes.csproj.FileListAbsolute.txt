@@ -1,0 +1,14 @@
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/bin/Debug/net6.0/NpgsqlTypes.deps.json
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/bin/Debug/net6.0/NpgsqlTypes.dll
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/bin/Debug/net6.0/NpgsqlTypes.pdb
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/bin/Debug/net6.0/NpgsqlTypes.xml
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/NpgsqlTypes.csproj.AssemblyReference.cache
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/NpgsqlTypes.GeneratedMSBuildEditorConfig.editorconfig
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/NpgsqlTypes.AssemblyInfoInputs.cache
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/NpgsqlTypes.AssemblyInfo.cs
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/NpgsqlTypes.csproj.CoreCompileInputs.cache
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/NpgsqlTypes.dll
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/ref/NpgsqlTypes.dll
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/NpgsqlTypes.xml
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/NpgsqlTypes.pdb
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql/NpgsqlTypes/obj/Debug/net6.0/refint/NpgsqlTypes.dll

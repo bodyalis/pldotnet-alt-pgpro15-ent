@@ -1,0 +1,38 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function byteaconversions(bytea, bytea) does not exist
+LINE 2: SELECT 'c#-bytea', 'byteaConversions1', byteaConversions('Br...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function byteaconversions(bytea, bytea) does not exist
+LINE 2: SELECT 'c#-bytea-null', 'byteaConversions2', byteaConversion...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function concatenatebytea(bytea, text) does not exist
+LINE 2: SELECT 'c#-bytea', 'concatenateBytea', concatenateBytea('\x4...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatebyteaarrayindex(bytea[], bytea, integer[]) does not exist
+LINE 2: ...'c#-bytea-null-1array', 'updateByteaArrayIndex1', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebyteaarrayindex(bytea[], bytea, integer[]) does not exist
+LINE 2: ...'c#-bytea-null-2array', 'updateByteaArrayIndex2', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatebyteaarrayindex(bytea[], bytea, integer[]) does not exist
+LINE 2: ...null-2array-arraynull', 'updateByteaArrayIndex3', updateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function convertbyteaarray(bytea[]) does not exist
+LINE 2: ...ECT 'c#-bytea-null-1array', 'ConvertByteaArray1', ConvertByt...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createbyteamultidimensionalarray() does not exist
+LINE 2: ...-arraynull', 'CreateByteaMultidimensionalArray1', CreateByte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

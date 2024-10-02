@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "XJqwGukqCu7jDKCnF1kZ1MYpHB1ZwSOtoZy4WvS91KGBgQRu3rNvNNiYGebLAKGhklS3aXIP1mXg/XlgvzM9dA==",
+  "success": false,
+  "projectFilePath": "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.NodaTime/Npgsql.NodaTime.csproj",
+  "expectedPackageFiles": [
+    "/root/.nuget/packages/fsharp.core/6.0.7/fsharp.core.6.0.7.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.codeanalysis.publicapianalyzers/3.3.3/microsoft.codeanalysis.publicapianalyzers.3.3.3.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.extensions.logging.abstractions/6.0.0/microsoft.extensions.logging.abstractions.6.0.0.nupkg.sha512",
+    "/root/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/root/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
+    "/root/.nuget/packages/nodatime/3.1.5/nodatime.3.1.5.nupkg.sha512",
+    "/root/.nuget/packages/system.runtime.compilerservices.unsafe/4.7.1/system.runtime.compilerservices.unsafe.4.7.1.nupkg.sha512",
+    "/root/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project Npgsql is not compatible with netstandard2.0 (.NETStandard,Version=v2.0). Project Npgsql supports: net6.0 (.NETCoreApp,Version=v6.0)",
+      "libraryId": "Npgsql",
+      "targetGraphs": [
+        ".NETStandard,Version=v2.0"
+      ]
+    }
+  ]
+}

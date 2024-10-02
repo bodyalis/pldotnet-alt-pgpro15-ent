@@ -1,0 +1,46 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnjson(json) does not exist
+LINE 2: SELECT 'c#-json', 'returnJson1', returnJson('{"a":"Sunday", ...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnjson(json) does not exist
+LINE 2: SELECT 'c#-json', 'returnJson2', returnJson('{"a":"Sunday", ...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnjson(json) does not exist
+LINE 2: SELECT 'c#-json', 'returnJson3', returnJson('{"Sunday":"2022...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnjson(json) does not exist
+LINE 2: SELECT 'c#-json-null', 'returnJson4', returnJson(null::JSON)...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifyjson(json, text, text) does not exist
+LINE 2: SELECT 'c#-json', 'modifyJson1', modifyJson('{"a":"Sunday", ...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyjson(json, text, text) does not exist
+LINE 2: SELECT 'c#-json-null', 'modifyJson2', modifyJson('{"Sunday":...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatejsonarrayindex(json[], json, integer[]) does not exist
+LINE 2: ...T 'c#-json-null-1array', 'updateJsonArrayIndex1', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatejsonarrayindex(json[], json, integer[]) does not exist
+LINE 2: ...-null-2array-arraynull', 'updateJsonArrayIndex2', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function replacejsonskey(json[]) does not exist
+LINE 2: SELECT 'c#-json-null-1array', 'ReplaceJsonsKey1', ReplaceJso...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function getjsonmultidimensionarray() does not exist
+LINE 2: ...3array-arraynull', 'GetJsonMultidimensionArray1', GetJsonMul...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

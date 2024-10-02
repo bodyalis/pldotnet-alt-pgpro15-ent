@@ -1,0 +1,382 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spisumintegers(integer, integer, integer) does not exist
+LINE 2: SELECT 'c#-int4-spi', 'SPISumIntegers1', SPISumIntegers(1, 2...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spisumintegers(integer, integer, integer) does not exist
+LINE 2: SELECT 'c#-int4-spi', 'SPISumIntegers2', SPISumIntegers(4, 4...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+NOTICE:  table "spitest" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spireturnboolvalue() does not exist
+LINE 2: SELECT 'c#-bool-spi', 'SPIReturnBoolValue', SPIReturnBoolVal...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincsmallint(smallint) does not exist
+LINE 2: SELECT 'c#-int2-spi', 'SPIIncSmallInt', SPIIncSmallInt('15':...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincint(integer) does not exist
+LINE 2: SELECT 'c#-int4-spi', 'SPIIncInt', SPIIncInt(327670) = 65534...
+                                           ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincbigint(bigint) does not exist
+LINE 2: SELECT 'c#-int8-spi', 'SPIIncBigInt', SPIIncBigInt(214748364...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincfloat(real) does not exist
+LINE 2: SELECT 'c#-float4-spi', 'SPIIncFloat', SPIIncFloat('0.01252'...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincdouble(double precision) does not exist
+LINE 2: SELECT 'c#-float8-spi', 'SPIIncDouble', SPIIncDouble('0.0125...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincpoint(point) does not exist
+LINE 2: SELECT 'c#-point-spi', 'SPIIncPoint', SPIIncPoint('(2.285,5....
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincline(line) does not exist
+LINE 2: SELECT 'c#-line-spi', 'SPIIncLine', SPIIncLine('{3.0,2.0,1.0...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spimodifylseg(point) does not exist
+LINE 2: SELECT 'c#-lseg-spi', 'SPIModifyLSeg', SPIModifyLSeg('(3.0,3...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincbox(double precision) does not exist
+LINE 2: SELECT 'c#-box-spi', 'SPIIncBox', SPIIncBox('0.2575'::FLOAT8...
+                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincpolygon(point) does not exist
+LINE 2: SELECT 'c#-polygon-spi', 'SPIIncPolygon', SPIIncPolygon('(6....
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincpath(point) does not exist
+LINE 2: SELECT 'c#-path-spi', 'SPIIncPath', SPIIncPath('(3.1415,6.28...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiinccircle(point, double precision) does not exist
+LINE 2: SELECT 'c#-circle-spi', 'SPIIncCircle', SPIIncCircle('(1.5,2...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincdate(integer, integer, integer) does not exist
+LINE 2: SELECT 'c#-date-spi', 'SPIIncDate', SPIIncDate(5,2,10) = '19...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiinctime(integer, integer) does not exist
+LINE 2: SELECT 'c#-time-spi', 'SPIIncTime', SPIIncTime(24, 2) = '14:...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiinctimewithtimezonze(numeric) does not exist
+LINE 2: ...ELECT 'c#-timetz-spi', 'SPIIncTimeWithTimeZonze', SPIIncTime...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiinctimestamp(integer, integer, integer) does not exist
+LINE 2: SELECT 'c#-timestamp-spi', 'SPIIncTimestamp', SPIIncTimestam...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiinctimestamptz(integer, integer, integer, integer) does not exist
+LINE 2: SELECT 'c#-timestamptz-spi', 'SPIIncTimestamptz', SPIIncTime...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincinterval(integer, integer) does not exist
+LINE 2: SELECT 'c#-interval-spi', 'SPIIncInterval', SPIIncInterval(6...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincmacaddress(integer) does not exist
+LINE 2: SELECT 'c#-macaddr-spi', 'SPIIncMacAddress', SPIIncMacAddres...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincmacaddress8(integer) does not exist
+LINE 2: SELECT 'c#-macaddr8-spi', 'SPIIncMacAddress8', SPIIncMacAddr...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincinet(integer, integer) does not exist
+LINE 2: SELECT 'c#-inet-spi', 'SPIIncInet', SPIIncInet(3 , 20) = '20...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiinccidr(integer) does not exist
+LINE 2: SELECT 'c#-cidr-spi', 'SPIIncCIDR', SPIIncCIDR(45) = '207.69...
+                                            ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiincmoney(money) does not exist
+LINE 2: SELECT 'c#-money-spi', 'SPIIncMoney', SPIIncMoney('1315.23':...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiconcatenatevarbit(bit varying) does not exist
+LINE 2: SELECT 'c#-varbit-spi', 'SPIConcatenateVarBit', SPIConcatena...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiconcatenatebit(bit) does not exist
+LINE 2: SELECT 'c#-bit-spi', 'SPIConcatenateBit', SPIConcatenateBit(...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiconcatenatebytea(bytea) does not exist
+LINE 2: SELECT 'c#-bytea-spi', 'SPIConcatenateBytea', SPIConcatenate...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiuppertext() does not exist
+LINE 2: SELECT 'c#-text-spi', 'SPIUpperText', SPIUpperText() = 'HELL...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiconcatenatebpchar(character) does not exist
+LINE 2: SELECT 'c#-bpchar-spi', 'SPIConcatenateBpchar', SPIConcatena...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiconcatenatevarchar(character varying) does not exist
+LINE 2: SELECT 'c#-varchar-spi', 'SPIConcatenateVarchar', SPIConcate...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spireplacexmlenconding(text) does not exist
+LINE 2: SELECT 'c#-xml-spi', 'SPIReplaceXmlEnconding', SPIReplaceXml...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spiaddkeytojson(text, text) does not exist
+LINE 2: SELECT 'c#-json-spi', 'SPIAddKeyToJson', SPIAddKeyToJson('d'...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spicombineuuid(uuid) does not exist
+LINE 2: SELECT 'c#-uuid-spi', 'SPICombineUuid', SPICombineUuid('a0ee...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spimodifyint4range(boolean, integer) does not exist
+LINE 2: SELECT 'c#-int4range-spi', 'SPIModifyInt4Range1', SPIModifyI...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spimodifyint4range(boolean, integer) does not exist
+LINE 2: SELECT 'c#-int4range-spi', 'SPIModifyInt4Range2', SPIModifyI...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spimodifyint8range(boolean, bigint) does not exist
+LINE 2: SELECT 'c#-int8range-spi', 'SPIModifyInt8Range1', SPIModifyI...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spimodifyint8range(boolean, integer) does not exist
+LINE 2: SELECT 'c#-int8range-spi', 'SPIModifyInt8Range2', SPIModifyI...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spimodifytimerange(boolean, integer, integer) does not exist
+LINE 2: SELECT 'c#-tsrange-spi', 'SPIModifyTimeRange1', SPIModifyTim...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spimodifytimerange(boolean, integer, integer) does not exist
+LINE 2: SELECT 'c#-tsrange-spi', 'SPIModifyTimeRange2', SPIModifyTim...
+                                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spimodifytimetzrange(boolean, integer, integer) does not exist
+LINE 2: ...LECT 'c#-tstzrange-spi', 'SPIModifyTimeTzRange1', SPIModifyT...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spimodifytimetzrange(boolean, integer, integer) does not exist
+LINE 2: ...LECT 'c#-tstzrange-spi', 'SPIModifyTimeTzRange2', SPIModifyT...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spimodifydaterange(boolean, integer, integer, integer) does not exist
+LINE 2: SELECT 'c#-daterange-spi', 'SPIModifyDateRange1', SPIModifyD...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spimodifydaterange(boolean, integer, integer, integer) does not exist
+LINE 2: SELECT 'c#-daterange-spi', 'SPIModifyDateRange2', SPIModifyD...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+NOTICE:  table "spinulls" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+INSERT 0 1
+INSERT 0 1
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spinullbool() does not exist
+LINE 2: SELECT 'c#-bool-null-spi', 'SPINullBool', SPINullBool() = AR...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spinullint4() does not exist
+LINE 2: SELECT 'c#-int4-null-spi', 'SPINullInt4', SPINullInt4() = AR...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spinullfloat8() does not exist
+LINE 2: SELECT 'c#-float8-null-spi', 'SPINullFloat8', SPINullFloat8(...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spinulldate() does not exist
+LINE 2: SELECT 'c#-date-null-spi', 'SPINullDate', SPINullDate() = AR...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spinullstring() does not exist
+LINE 2: SELECT 'c#-string-null-spi', 'SPINullString', SPINullString(...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spinullmac8() does not exist
+LINE 2: SELECT 'c#-macaddr8-null-spi', 'SPINullMac8', SPINullMac8() ...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spisumintegers2(integer, integer, integer) does not exist
+LINE 2: ...ELECT 'c#-int-spi-multiquery', 'SPISumIntegers2', SPISumInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spisumintegers2(integer, integer, integer) does not exist
+LINE 2: ...ELECT 'c#-int-spi-multiquery', 'SPISumIntegers2', SPISumInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function multiqueriestest(integer) does not exist
+LINE 2: ...ECT 'c#-int-spi-multiquery', 'MultiQueriesTest1', MultiQueri...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function multiqueriestest(integer) does not exist
+LINE 2: ...ECT 'c#-int-spi-multiquery', 'MultiQueriesTest2', MultiQueri...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function multiqueriestest(integer) does not exist
+LINE 2: ...ECT 'c#-int-spi-multiquery', 'MultiQueriesTest3', MultiQueri...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spisumintegerspositionparameters(integer) does not exist
+LINE 2: ...multiquery', 'SPISUMIntegersPositionParameters1', SPISUMInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spisumintegerspositionparameters(integer) does not exist
+LINE 2: ...multiquery', 'SPISUMIntegersPositionParameters2', SPISUMInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spitestingcompoudparameters() does not exist
+LINE 2: ...ltiquery-compoud', 'SPITestingCompoudParameters', SPITesting...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spitestingcompoudpositionalparameters() does not exist
+LINE 2: ...ompoud', 'SPITestingCompoudPositionalParameters', SPITesting...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spibatchcompoudparameters(integer, integer) does not exist
+LINE 2: ...compoud-parameters', 'SPIBatchCompoudParameters', SPIBatchCo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spibatchcompoudparameters(integer, integer) does not exist
+LINE 2: ...compoud-parameters', 'SPIBatchCompoudParameters', SPIBatchCo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function spibatchcompoudparameters(double precision, double precision) does not exist
+LINE 2: ...compoud-parameters', 'SPIBatchCompoudParameters', SPIBatchCo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function spibatchcompoudparameters(double precision, double precision) does not exist
+LINE 2: ...compoud-parameters', 'SPIBatchCompoudParameters', SPIBatchCo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  procedure spitransactiontestcommitfirst() does not exist
+LINE 1: CALL SPITransactionTestCommitFirst();
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  relation "transaction_test" does not exist
+LINE 2: ...M(a) = 20 THEN TRUE ELSE FALSE END AS RESULT FROM TRANSACTIO...
+                                                             ^
+ERROR:  language "plcsharp" does not exist
+ERROR:  procedure spitransactiontestrollbackfirst() does not exist
+LINE 1: CALL SPITransactionTestRollbackFirst();
+             ^
+HINT:  No procedure matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  relation "transaction_test" does not exist
+LINE 2: ...M(a) = 25 THEN TRUE ELSE FALSE END AS RESULT FROM TRANSACTIO...
+                                                             ^
+ERROR:  language "plcsharp" does not exist
+ERROR:  function integeronedimensionalarray() does not exist
+LINE 2: ...'c#-int-spi-array', 'IntegerOneDimensionalArray', IntegerOne...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function stringtwodimensionalarray() does not exist
+LINE 2: ...'c#-text-spi-array', 'StringTwoDimensionalArray', StringTwoD...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function integersixdimensionalarray() does not exist
+LINE 2: ...'c#-int-spi-array', 'IntegerSixDimensionalArray', IntegerSix...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function integerarraywithnull() does not exist
+LINE 2: ... 'c#-int-spi-array-null', 'IntegerArrayWithNull', IntegerArr...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function stringarraywithnull() does not exist
+LINE 2: ... 'c#-text-spi-array-null', 'StringArrayWithNull', StringArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function recordtestspi(unknown, double precision, macaddr) does not exist
+LINE 3: FROM RecordTestSPI('hello world!', '3.14159265358'::FLOAT8, ...
+             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function recordwithnulltestspi(text, double precision, macaddr) does not exist
+LINE 2: ...T 'c#-record-spi-null', 'RecordWithNullTestSPI1', RecordWith...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function recordwithnulltestspi(text, double precision, macaddr) does not exist
+LINE 2: ...T 'c#-record-spi-null', 'RecordWithNullTestSPI2', RecordWith...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function recordwithnulltestspi(unknown, double precision, macaddr) does not exist
+LINE 2: ...T 'c#-record-spi-null', 'RecordWithNullTestSPI3', RecordWith...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function recordwithsupportedtypes() does not exist
+LINE 2:     SELECT * FROM recordWithSupportedTypes() AS t(
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

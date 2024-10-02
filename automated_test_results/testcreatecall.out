@@ -1,0 +1,29 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  function fibonacci(integer) does not exist
+LINE 2: SELECT 'c#-int8', 'fibonacci2', fibonacci(5) = BIGINT '5';
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function fibonacci(integer) does not exist
+LINE 2: SELECT 'c#-int8', 'fibonacci3', fibonacci(15) = BIGINT '610'...
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function fibonacci(integer) does not exist
+LINE 2: SELECT 'c#-int8', 'fibonacci1', fibonacci(20) = BIGINT '6765...
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function fibonacci(integer) does not exist
+LINE 2: SELECT 'c#-int8', 'fibonacci1', fibonacci(30) = BIGINT '8320...
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatemoneyarray(money[], money, integer[]) does not exist
+LINE 2: ...LECT 'c#-money-null-1array', 'updateMoneyArray1', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatemoneyarray(money[], money, integer[]) does not exist
+LINE 2: ...oney-null-2array-arraynull', 'updateMoneyArray2', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatemoneyarray(money[], money, integer[]) does not exist
+LINE 2: ...oney-null-2array-arraynull', 'updateMoneyArray3', updateMone...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

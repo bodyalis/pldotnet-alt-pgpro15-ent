@@ -1,0 +1,178 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function maxsmallint() does not exist
+LINE 2: SELECT 'c#-int2', 'maxSmallInt', maxSmallInt() = smallint '3...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sum2smallint(smallint, smallint) does not exist
+LINE 2: SELECT 'c#-int2', 'sum2SmallInt', sum2SmallInt(CAST(100 AS s...
+                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2smallint(smallint, smallint) does not exist
+LINE 2: SELECT 'c#-int2-null', 'sum2SmallInt2', sum2SmallInt(NULL::S...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function maxinteger() does not exist
+LINE 2: SELECT 'c#-int4', 'maxInteger', maxInteger() = integer '2147...
+                                        ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sum2integer(integer, integer) does not exist
+LINE 2: SELECT 'c#-int4', 'sum2Integer1', sum2Integer(32770, 100) = ...
+                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2integer(integer, integer) does not exist
+LINE 2: SELECT 'c#-int4-null', 'sum2Integer2', sum2Integer(NULL::INT...
+                                               ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function maxbigint() does not exist
+LINE 2: SELECT 'c#-int8', 'maxBigInt', maxBigInt() = bigint '9223372...
+                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sum2bigint(bigint, integer) does not exist
+LINE 2: SELECT 'c#-int8', 'sum2BigInt1', sum2BigInt(9223372036854775...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2bigint(bigint, bigint) does not exist
+LINE 2: SELECT 'c#-int8-null', 'sum2BigInt2', sum2BigInt(92233720368...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function mixedbigint(integer, integer, integer) does not exist
+LINE 2: SELECT 'c#-int8', 'mixedBigInt', mixedBigInt(32767,  2147483...
+                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function mixedint(smallint, smallint, integer) does not exist
+LINE 2: SELECT 'c#-int4', 'mixedInt', mixedInt(CAST(32767 AS smallin...
+                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function mixedbigint8(smallint, bigint) does not exist
+LINE 2: SELECT 'c#-int8', 'mixedBigInt8', mixedBigInt8(CAST(32 AS SM...
+                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnsmallintarray(smallint[]) does not exist
+LINE 2: ...CT 'c#-int2-null-1array', 'returnSmallIntArray1', returnSmal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnsmallintarray(smallint[]) does not exist
+LINE 2: ...2-null-2array-arraynull', 'returnSmallIntArray2', returnSmal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnsmallintarray(smallint[]) does not exist
+LINE 2: ...2-null-3array-arraynull', 'returnSmallIntArray3', returnSmal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sumsmallintarray(smallint[]) does not exist
+LINE 2: ...ELECT 'c#-int2-null-1array', 'sumSmallIntArray1', sumSmallIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumsmallintarray(smallint[]) does not exist
+LINE 2: ...int2-null-2array-arraynull', 'sumSmallIntArray2', sumSmallIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumsmallintarray(smallint[]) does not exist
+LINE 2: ...int2-null-3array-arraynull', 'sumSmallIntArray3', sumSmallIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createsmallintmultidimensionalarray() does not exist
+LINE 2: ...rraynull', 'CreateSmallIntMultidimensionalArray', CreateSmal...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraysmallintindex(smallint[], smallint, integer[]) does not exist
+LINE 2: ...#-int2-null-1array', 'updateArraySmallIntIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraysmallintindex(smallint[], smallint, integer[]) does not exist
+LINE 2: ...l-2array-arraynull', 'updateArraySmallIntIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnintegerarray(integer[]) does not exist
+LINE 2: ...ECT 'c#-int4-null-1array', 'returnIntegerArray1', returnInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnintegerarray(integer[]) does not exist
+LINE 2: ...t4-null-2array-arraynull', 'returnIntegerArray2', returnInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnintegerarray(integer[]) does not exist
+LINE 2: ...t4-null-3array-arraynull', 'returnIntegerArray3', returnInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sumintegerarray(integer[]) does not exist
+LINE 2: SELECT 'c#-int4-null-1array', 'sumIntegerArray1', sumInteger...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumintegerarray(integer[]) does not exist
+LINE 2: ...-int4-null-2array-arraynull', 'sumIntegerArray2', sumInteger...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumintegerarray(integer[]) does not exist
+LINE 2: ...-int4-null-3array-arraynull', 'sumIntegerArray3', sumInteger...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createintegermultidimensionalarray() does not exist
+LINE 2: ...arraynull', 'CreateIntegerMultidimensionalArray', CreateInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearrayintegerindex(integer[], integer, integer[]) does not exist
+LINE 2: ...c#-int4-null-1array', 'updateArrayIntegerIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearrayintegerindex(integer[], integer, integer[]) does not exist
+LINE 2: ...c#-int4-null-2array', 'updateArrayIntegerIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function returnbigintegerarray(bigint[]) does not exist
+LINE 2: ... 'c#-int8-null-1array', 'returnBigIntegerArray1', returnBigI...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnbigintegerarray(bigint[]) does not exist
+LINE 2: ...null-2array-arraynull', 'returnBigIntegerArray2', returnBigI...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function returnbigintegerarray(bigint[]) does not exist
+LINE 2: ...null-3array-arraynull', 'returnBigIntegerArray3', returnBigI...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sumbigintegerarray(bigint[]) does not exist
+LINE 2: ...ECT 'c#-int8-null-1array', 'sumBigIntegerArray1', sumBigInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumbigintegerarray(bigint[]) does not exist
+LINE 2: ...t8-null-2array-arraynull', 'sumBigIntegerArray2', sumBigInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumbigintegerarray(bigint[]) does not exist
+LINE 2: ...t8-null-3array-arraynull', 'sumBigIntegerArray3', sumBigInte...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function createbigintegermultidimensionalarray() does not exist
+LINE 2: ...aynull', 'CreateBigIntegerMultidimensionalArray', CreateBigI...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraybigintegerindex(bigint[], bigint, integer[]) does not exist
+LINE 2: ...int8-null-1array', 'updateArrayBigIntegerIndex1', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraybigintegerindex(bigint[], bigint, integer[]) does not exist
+LINE 2: ...int8-null-2array', 'updateArrayBigIntegerIndex2', updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

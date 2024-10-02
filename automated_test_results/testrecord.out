@@ -1,0 +1,76 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function dynamic_record_generator(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator(1)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator(1)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator(2)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator(2)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator(3)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function dynamic_record_generator_srf(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_srf(10)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_srf(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_srf(10)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(1)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(2)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(3)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(4)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(5)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(6)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(6)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(7)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(7)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(8)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function dynamic_record_generator_types(integer) does not exist
+LINE 2:     SELECT * FROM dynamic_record_generator_types(6)
+                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

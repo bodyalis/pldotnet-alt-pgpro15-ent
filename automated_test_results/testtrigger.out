@@ -1,0 +1,32 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+NOTICE:  table "trigger_test_table" does not exist, skipping
+DROP TABLE
+CREATE TABLE
+ERROR:  language "plcsharp" does not exist
+ERROR:  language "plcsharp" does not exist
+ERROR:  language "plcsharp" does not exist
+ERROR:  language "plcsharp" does not exist
+ERROR:  language "plcsharp" does not exist
+ERROR:  function trigger_test_function_modify() does not exist
+ERROR:  function trigger_test_skip() does not exist
+ERROR:  function trigger_test_tg_vals() does not exist
+ERROR:  function trigger_test_update_type() does not exist
+ERROR:  function trigger_test_exception() does not exist
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+UPDATE 1
+UPDATE 1
+DELETE 1
+UPDATE 0
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1
+INSERT 0 1

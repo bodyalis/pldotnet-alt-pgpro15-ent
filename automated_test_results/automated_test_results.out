@@ -1,0 +1,19 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+  feature   |       test_name        | result 
+------------+------------------------+--------
+ c#-trigger | validRows              | f
+ c#-trigger | rowUpdated             | t
+ c#-trigger | rowModifiedByTrigger   | f
+ c#-trigger | rowUpdated-2           | t
+ c#-trigger | skipWorks              | f
+ c#-trigger | tgValuesCorrect        | f
+ c#-trigger | tgTypeMismatchHandling | t
+ f#-trigger | validRows              | f
+ f#-trigger | rowUpdated             | t
+ f#-trigger | rowModifiedByTrigger   | f
+ f#-trigger | rowUpdated-2           | t
+ f#-trigger | skipWorks              | f
+ f#-trigger | tgValuesCorrect        | f
+ f#-trigger | tgTypeMismatchHandling | t
+(14 rows)
+

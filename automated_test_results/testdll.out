@@ -1,0 +1,281 @@
+could not change directory to "/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux": Permission denied
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifybitdll(bit) does not exist
+LINE 2: SELECT 'c#-bit-dll', 'modifyBitDLL1', modifyBitDLL('10101'::...
+                                              ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifybitdll(bit) does not exist
+LINE 2: SELECT 'c#-bit-null-dll', 'modifyBitDLL2', modifyBitDLL(NULL...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function modifyvarbitdll(bit varying) does not exist
+LINE 2: SELECT 'c#-varbit-dll', 'modifyVarbitDLL1', modifyVarbitDLL(...
+                                                    ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function modifyvarbitdll(bit varying) does not exist
+LINE 2: SELECT 'c#-varbit-null-dll', 'modifyVarbitDLL2', modifyVarbi...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function booleananddll(boolean, boolean) does not exist
+LINE 2: SELECT 'c#-bool-dll', 'BooleanAndDLL1', BooleanAndDLL(true, ...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function booleananddll(boolean, boolean) does not exist
+LINE 2: SELECT 'c#-bool-null-dll', 'BooleanAndDLL2', BooleanAndDLL(N...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function byteaconversionsdll(bytea, bytea) does not exist
+LINE 2: SELECT 'c#-bytea-dll', 'byteaConversionsDLL1', byteaConversi...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function byteaconversionsdll(bytea, bytea) does not exist
+LINE 2: ...LECT 'c#-bytea-null-dll', 'byteaConversionsDLL2', byteaConve...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function setnewdatedll(timestamp without time zone, date) does not exist
+LINE 2: SELECT 'c#-timestamp-dll', 'setNewDateDLL1', setNewDateDLL(T...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function setnewdatedll(timestamp without time zone, date) does not exist
+LINE 2: SELECT 'c#-timestamp-null-dll', 'setNewDateDLL2', setNewDate...
+                                                          ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sumdoublearraydll(double precision[]) does not exist
+LINE 2: ...c#-float8-null-1array-dll', 'sumDoubleArrayDLL1', sumDoubleA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sumdoublearraydll(double precision[]) does not exist
+LINE 2: ...c#-float8-null-2array-dll', 'sumDoubleArrayDLL2', sumDoubleA...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sum2smallintdll(smallint, smallint) does not exist
+LINE 2: SELECT 'c#-int2-dll', 'sum2SmallIntDLL1', sum2SmallIntDLL(CA...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2smallintdll(smallint, smallint) does not exist
+LINE 2: SELECT 'c#-int2-null-dll', 'sum2SmallIntDLL2', sum2SmallIntD...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sum2integerdll(integer, integer) does not exist
+LINE 2: SELECT 'c#-int4-dll', 'sum2IntegerDLL1', sum2IntegerDLL(3277...
+                                                 ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2integerdll(integer, integer) does not exist
+LINE 2: SELECT 'c#-int4-null-dll', 'sum2IntegerDLL2', sum2IntegerDLL...
+                                                      ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function sum2bigintdll(bigint, integer) does not exist
+LINE 2: SELECT 'c#-int8-dll', 'sum2BigIntDLL1', sum2BigIntDLL(922337...
+                                                ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function sum2bigintdll(bigint, bigint) does not exist
+LINE 2: SELECT 'c#-int8-null-dll', 'sum2BigIntDLL2', sum2BigIntDLL(9...
+                                                     ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatearraypolygonindexdll(polygon[], polygon, integer[]) does not exist
+LINE 2: ...-1array-dll', 'updateArrayPolygonIndexDLL1', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatearraypolygonindexdll(polygon[], polygon, integer[]) does not exist
+LINE 2: ...raynull-dll', 'updateArrayPolygonIndexDLL2', CAST(updateArra...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function updatejsonarrayindexdll(json[], json, integer[]) does not exist
+LINE 2: ...son-null-1array-dll', 'updateJsonArrayIndexDLL1', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function updatejsonarrayindexdll(json[], json, integer[]) does not exist
+LINE 2: ...array-arraynull-dll', 'updateJsonArrayIndexDLL2', updateJson...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasemoneydll(money[]) does not exist
+LINE 2: ... 'c#-money-null-1array-dll', 'IncreaseMoneyDLL1', IncreaseMo...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasemacaddress8dll(macaddr8[]) does not exist
+LINE 2: ...-macaddr8-1array-dll', 'IncreaseMacAddress8DLL1', IncreaseMa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasecidraddressdll(cidr[]) does not exist
+LINE 2: ... 'c#-cidr-1array-dll', 'IncreaseCIDRAddressDLL1', IncreaseCI...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increaseint8rangesdll(int8range[]) does not exist
+LINE 2: ...range-null-1array-dll', 'IncreaseInt8RangesDLL1', IncreaseIn...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function increasedateonlyrangesdll(daterange[]) does not exist
+LINE 2: ...e-null-1array-dll', 'IncreaseDateonlyRangesDLL1', IncreaseDa...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function concatenatevarcharsdll(character varying, character varying, character) does not exist
+LINE 2: ...LECT 'c#-varchar-dll', 'concatenateVarCharsDLL1', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function concatenatevarcharsdll(character varying, character varying, character) does not exist
+LINE 2: ...'c#-varchar-null-dll', 'concatenateVarCharsDLL2', concatenat...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function combineuuidsdll(uuid, uuid) does not exist
+LINE 2: SELECT 'c#-uuid-dll', 'combineUUIDsDLL1', combineUUIDsDLL('a...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function combineuuidsdll(uuid, uuid) does not exist
+LINE 2: SELECT 'c#-uuid-dll', 'combineUUIDsDLL2', combineUUIDsDLL('1...
+                                                  ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function combineuuidsdll(uuid, uuid) does not exist
+LINE 2: SELECT 'c#-uuid-null-dll', 'combineUUIDsDLL3', combineUUIDsD...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function middlepointstrictcallstrict(point, point) does not exist
+LINE 2: ...CT 'c#-point-dll', 'middlePointStrictCallStrict', middlePoin...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function middlepointstrictcalldefault(point, point) does not exist
+LINE 2: ...T 'c#-point-dll', 'middlePointStrictCallDefault', middlePoin...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function middlepointdefaultcalldefault(point, point) does not exist
+LINE 2: ...point-null-dll', 'middlePointDefaultCallDefault', middlePoin...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutbasic0dll(integer) does not exist
+LINE 2: SELECT 'c#-inout-basic-0-dll', 'inoutBasic0DLL', inoutBasic0...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutbasic1dll() does not exist
+LINE 2: SELECT 'c#-inout-basic-1-dll', 'inoutBasic1DLL', inoutBasic1...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inputnull1dll(integer) does not exist
+LINE 2: SELECT 'c#-inout-null-1-dll', 'inputNull1DLL', inputNull1DLL...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inputnull2dll(unknown) does not exist
+LINE 2: SELECT 'c#-inout-null-2-dll', 'inputNull2DLL', inputNull2DLL...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inputnull3dll() does not exist
+LINE 2: SELECT 'c#-inout-null-3-dll', 'inputNull3DLL', inputNull3DLL...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inputnull4dll(integer, integer) does not exist
+LINE 2: SELECT 'c#-inout-null-4-dll', 'inputNull4DLL', inputNull4DLL...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inputnull5dll(unknown, integer) does not exist
+LINE 2: SELECT 'c#-inout-null-5-dll', 'inputNull5DLL', inputNull5DLL...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inputnull6dll(integer) does not exist
+LINE 2: SELECT 'c#-inout-null-6-dll', 'inputNull6DLL', inputNull6DLL...
+                                                       ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function inputnull6dll(integer) does not exist
+LINE 2: SELECT 'c#-inout-null-7', 'inputNull6DLL', inputNull6DLL(2) ...
+                                                   ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutmultiarg1dll(integer, integer, integer, unknown, integer) does not exist
+LINE 2: ...T 'c#-inout-multiarg-1-dll', 'inoutMultiarg1DLL', inoutMulti...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutmultiarg2dll(unknown, integer, integer, integer, integer) does not exist
+LINE 2: ...T 'c#-inout-multiarg-2-dll', 'inoutMultiarg2DLL', inoutMulti...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutmultiarg3dll(integer, integer, integer, integer, integer) does not exist
+LINE 2: ...T 'c#-inout-multiarg-3-dll', 'inoutMultiarg3DLL', inoutMulti...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutmultiarg4dll(integer, integer, integer, integer, integer, integer) does not exist
+LINE 2: ...T 'c#-inout-multiarg-4-dll', 'inoutMultiarg4DLL', inoutMulti...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutarray10dll(macaddr[]) does not exist
+LINE 2: ...ELECT 'c#-inout-array-10-dll', 'inoutArray10DLL', inoutArray...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutarray11dll(macaddr, integer) does not exist
+LINE 2: ...ELECT 'c#-inout-array-11-dll', 'inoutArray11DLL', inoutArray...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutsimple10dll(cidr) does not exist
+LINE 2: ...ECT 'c#-inout-simple-10-dll', 'inoutSimple10DLL', inoutSimpl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutsimple20dll(cidr, integer, integer) does not exist
+LINE 2: ...ECT 'c#-inout-simple-20-dll', 'inoutSimple20DLL', inoutSimpl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutsimple30dll(cidr, integer, integer) does not exist
+LINE 2: ...ECT 'c#-inout-simple-30-dll', 'inoutSimple30DLL', inoutSimpl...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutobject10dll(unknown, unknown) does not exist
+LINE 2: ...ECT 'c#-inout-object-10-dll', 'inoutObject10DLL', inoutObjec...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function inoutobject10dll(unknown, unknown) does not exist
+LINE 2: ...ECT 'c#-inout-object-11-dll', 'inoutObject10DLL', inoutObjec...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function inoutobject10dll(unknown, unknown) does not exist
+LINE 2: ...ECT 'c#-inout-object-12-dll', 'inoutObject10DLL', inoutObjec...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  language "plcsharp" does not exist
+ERROR:  function inoutobject20dll(unknown, unknown) does not exist
+LINE 2: ...ECT 'c#-inout-object-20-dll', 'inoutObject20DLL', inoutObjec...
+                                                             ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function inoutobject20dll(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-inout-object-21', 'inoutObject20DLL', inoutObject...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function inoutobject20dll(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-inout-object-22', 'inoutObject20DLL', inoutObject...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.
+ERROR:  function inoutobject20dll(unknown, unknown) does not exist
+LINE 2: SELECT 'c#-inout-object-23', 'inoutObject20DLL', inoutObject...
+                                                         ^
+HINT:  No function matches the given name and argument types. You might need to add explicit type casts.

@@ -1,0 +1,12 @@
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/bin/Release/netstandard2.0/Npgsql.SourceGenerators.deps.json
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/bin/Release/netstandard2.0/Npgsql.SourceGenerators.dll
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/bin/Release/netstandard2.0/Npgsql.SourceGenerators.pdb
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/bin/Release/netstandard2.0/Npgsql.SourceGenerators.xml
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/obj/Release/netstandard2.0/Npgsql.SourceGenerators.csproj.AssemblyReference.cache
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/obj/Release/netstandard2.0/Npgsql.SourceGenerators.GeneratedMSBuildEditorConfig.editorconfig
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/obj/Release/netstandard2.0/Npgsql.SourceGenerators.AssemblyInfoInputs.cache
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/obj/Release/netstandard2.0/Npgsql.SourceGenerators.AssemblyInfo.cs
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/obj/Release/netstandard2.0/Npgsql.SourceGenerators.csproj.CoreCompileInputs.cache
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/obj/Release/netstandard2.0/Npgsql.SourceGenerators.dll
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/obj/Release/netstandard2.0/Npgsql.SourceGenerators.xml
+/home/MIAC.LOCAL/enaliev-rm/pldtotnet-vclib-alt-linux/dotnet_src/npgsql/src/Npgsql.SourceGenerators/obj/Release/netstandard2.0/Npgsql.SourceGenerators.pdb
